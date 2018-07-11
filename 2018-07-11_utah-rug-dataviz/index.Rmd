@@ -17,7 +17,7 @@ knitr::opts_chunk$set(fig.align = "center")
 
 # Slides
 
-This R Markdown file is available on GitHub.
+This R Markdown file [is available on GitHub](https://github.com/andrewheiss/talks/tree/master/2018-07-11_utah-rug-dataviz).
 
 [Download the slides from today's talk](presentation/andrew-heiss_2018-07-11_utah-rug-dataviz.pdf)
 
