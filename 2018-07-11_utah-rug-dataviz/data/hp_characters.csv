@@ -1,0 +1,196 @@
+_id,name,role,house,school,__v,ministryOfMagic,orderOfThePhoenix,dumbledoresArmy,deathEater,bloodStatus,species,boggart,alias,animagus,wand,patronus
+5a0fa4daae5bc100213c232e,Hannah Abbott,student,Hufflepuff,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,TRUE,FALSE,half-blood,human,NA,NA,NA,NA,NA
+5a0fa54aae5bc100213c232f,Bathsheda Babbling,"Professor, Ancient Runes",NA,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,TRUE,FALSE,unknown,human,NA,NA,NA,NA,NA
+5a0fa5deae5bc100213c2330,Ludo Bagman,"Head, Department of Magical Games and Sports",NA,NA,0,TRUE,FALSE,FALSE,FALSE,unknown,human,NA,NA,NA,NA,NA
+5a0fa60aae5bc100213c2331,Bathilda Bagshot,"Author, A History Of Magic",NA,NA,0,FALSE,FALSE,FALSE,FALSE,unknown,human,NA,NA,NA,NA,NA
+5a0fa648ae5bc100213c2332,Katie Bell,student,Gryffindor,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,FALSE,FALSE,pure-blood,human,Lord Voldemort,NA,NA,NA,NA
+5a0fa67dae5bc100213c2333,Cuthbert Binns,"Professor, History of Magic",Gryffindor,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,FALSE,FALSE,unknown,ghost,NA,NA,NA,NA,NA
+5a0fa6bbae5bc100213c2334,Phineas Nigellus Black,(Formerly) Headmaster of Hogwarts,Slytherin,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,FALSE,FALSE,pure-blood,human,NA,NA,NA,NA,NA
+5a0fa772ae5bc100213c2337,Regulus Black,NA,Slytherin,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,FALSE,TRUE,pure-blood,human,NA,NA,NA,NA,NA
+5a0fa7dcae5bc100213c2338,Sirius Black,NA,Gryffindor,Hogwarts School of Witchcraft and Wizardry,0,FALSE,TRUE,FALSE,FALSE,pure-blood,human,NA,Padfoot,black dog,NA,NA
+5a0fa842ae5bc100213c2339,Amelia Bones,"Head, Department of Magical Law Enforcement",Hufflepuff,Hogwarts School of Witchcraft and Wizardry,0,TRUE,TRUE,FALSE,FALSE,unknown,human,NA,NA,NA,NA,NA
+5a0fa86dae5bc100213c233a,Susan Bones,student,Hufflepuff,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,TRUE,FALSE,half-blood,human,NA,NA,NA,NA,NA
+5a0fa8a6ae5bc100213c233b,Terry Boot,student,Ravenclaw,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,TRUE,FALSE,unknown,human,NA,NA,NA,NA,NA
+5a107e1ae0686c0021283b19,Lavender Brown,student,Gryffindor,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,TRUE,FALSE,pure-blood,human,rat,NA,NA,NA,NA
+5a107e4ae0686c0021283b1a,Millicent Bulstrode,student,Slytherin,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,FALSE,FALSE,half-blood,human,NA,NA,NA,NA,NA
+5a107ee3e0686c0021283b1c,Frank Bryce,"Gardener, Riddle Family",NA,NA,0,FALSE,FALSE,FALSE,FALSE,muggle,human,NA,NA,NA,NA,NA
+5a107ebee0686c0021283b1b,Charity Burbage,"Professor, Muggle Studies",NA,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,FALSE,FALSE,unknown,human,Lord Voldemort,NA,NA,NA,NA
+5a107f17e0686c0021283b1d,Alecto Carrow,"Professor, Muggle Studies",NA,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,FALSE,TRUE,pure-blood,human,NA,NA,NA,NA,NA
+5a107f60e0686c0021283b1e,Amycus Carrow,"Professor, Dark Arts",NA,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,FALSE,TRUE,pure-blood,human,NA,NA,NA,NA,NA
+5a107f9be0686c0021283b1f,Reginald Cattermole,"Employee, Magical Maintenance Department",NA,NA,0,TRUE,FALSE,FALSE,FALSE,unknown,human,NA,NA,NA,NA,NA
+5a107fc9e0686c0021283b20,Mary Cattermole,NA,NA,NA,0,FALSE,FALSE,FALSE,FALSE,unknown,human,NA,NA,NA,"Cherry, 8 3/4"", unicorn hair",NA
+5a107ffee0686c0021283b21,Cho Chang,Student,Ravenclaw,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,TRUE,FALSE,unknown,human,NA,NA,NA,NA,swan
+5a108023e0686c0021283b22,Penelope Clearwater,Student,Ravenclaw,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,FALSE,FALSE,unknown,human,NA,Penny,NA,NA,NA
+5a108047e0686c0021283b23,Michael Corner,Student,Ravenclaw,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,TRUE,FALSE,half-blood,human,NA,NA,NA,NA,NA
+5a1093eb3dc2080021cd8753,Crabbe,NA,Slytherin,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,FALSE,TRUE,pure-blood,human,NA,NA,NA,NA,NA
+5a10942a3dc2080021cd8754,Vincent Crabbe,Student,Slytherin,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,FALSE,TRUE,pure-blood,human,Lord Voldemort,NA,NA,NA,NA
+5a10944f3dc2080021cd8755,Colin Creevey,Student,Gryffindor,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,TRUE,FALSE,muggle-born,human,NA,NA,NA,NA,NA
+5a10947c3dc2080021cd8756,Dennis Creevey,Student,Gryffindor,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,TRUE,FALSE,muggle-born,human,NA,NA,NA,NA,NA
+5a1094a53dc2080021cd8757,Dirk Cresswell,"Head, Goblin Liason Office",NA,NA,0,TRUE,FALSE,FALSE,FALSE,muggle-born,human,NA,NA,NA,NA,NA
+5a1094dc3dc2080021cd8758,Bartemius Crouch Sr.,"Head, Department of International Magical Cooperation",NA,NA,0,TRUE,FALSE,FALSE,FALSE,pure-blood,human,NA,Barty,NA,NA,NA
+5a1094fa3dc2080021cd8759,Bartemius Crouch Jr.,NA,NA,NA,0,FALSE,FALSE,FALSE,TRUE,pure-blood,human,NA,Barty,NA,NA,NA
+5a10951a3dc2080021cd875a,John Dawlish,Auror,NA,NA,0,TRUE,FALSE,FALSE,FALSE,unknown,human,NA,NA,NA,NA,NA
+5a1095693dc2080021cd875b,Fleur Delacour,Student,NA,Beauxbatons Academy of Magic,0,FALSE,TRUE,FALSE,FALSE,quarter-villa,part-human,NA,NA,NA,"Rosewood, 9 1/2"", veela hair",NA
+5a1095873dc2080021cd875c,Gabrielle Delacour,Student,NA,Beauxbatons Academy of Magic,0,FALSE,FALSE,FALSE,FALSE,quarter-villa,part-human,NA,NA,NA,NA,NA
+5a1095af3dc2080021cd875d,Dedalus Diggle,NA,NA,NA,0,FALSE,TRUE,FALSE,FALSE,unknown,human,NA,NA,NA,NA,NA
+5a1095e53dc2080021cd875e,Amos Diggory,"Employee, Department for the Regulation and Control of Magical Creatures",NA,NA,0,TRUE,FALSE,FALSE,FALSE,pure-blood,human,NA,NA,NA,NA,NA
+5a1096253dc2080021cd875f,Cedric Diggory,Student,Hufflepuff,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,FALSE,FALSE,pure-blood,human,NA,NA,NA,"Ash, 12 1/4"", unicorn hair",NA
+5a10964d3dc2080021cd8760,Elphias Doge,Special Advisor to the Wizengamot,NA,Hogwarts School of Witchcraft and Wizardry,0,FALSE,TRUE,FALSE,FALSE,pure-blood,human,NA,NA,NA,NA,NA
+5a1096743dc2080021cd8761,Antonin Dolohov,NA,NA,NA,0,FALSE,FALSE,FALSE,TRUE,unknown,human,NA,NA,NA,NA,NA
+5a1096b33dc2080021cd8762,Aberforth Dumbledore,"Owner, Hog's Head Inn",Gryffindor,Hogwarts School of Witchcraft and Wizardry,0,FALSE,TRUE,FALSE,FALSE,half-blood,human,NA,Ab,NA,NA,goat
+5a1097653dc2080021cd8763,Albus Dumbledore,"Headmaster, Hogwarts",Gryffindor,Hogwarts School of Witchcraft and Wizardry,0,TRUE,TRUE,FALSE,FALSE,half-blood,human,Ariana (sister),NA,NA,"Elder, 15"", thestral tail hair",phoenix
+5a10977d3dc2080021cd8764,Ariana Dumbledore,NA,NA,NA,0,FALSE,FALSE,FALSE,FALSE,half-blood,human,NA,NA,NA,NA,NA
+5a1097943dc2080021cd8765,Dudley Dursley,NA,NA,NA,0,FALSE,FALSE,FALSE,FALSE,muggle,human,NA,NA,NA,NA,NA
+5a1097a23dc2080021cd8766,Marjorie Dursley,NA,NA,NA,0,FALSE,FALSE,FALSE,FALSE,muggle,human,NA,Marge,NA,NA,NA
+5a1097aa3dc2080021cd8767,Petunia Dursley,NA,NA,NA,0,FALSE,FALSE,FALSE,FALSE,muggle,human,NA,NA,NA,NA,NA
+5a1097b03dc2080021cd8768,Vernon Dursley,NA,NA,NA,0,FALSE,FALSE,FALSE,FALSE,muggle,human,NA,NA,NA,NA,NA
+5a1097d53dc2080021cd8769,Marietta Edgecombe,student,Ravenclaw,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,TRUE,FALSE,unknown,human,NA,NA,NA,NA,NA
+5a1098093dc2080021cd876a,Everard,"(former) Headmaster, Hogwarts",NA,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,FALSE,FALSE,unknown,human,NA,NA,NA,NA,NA
+5a10982c3dc2080021cd876b,Arabella Figg,Dealer of cross-bread cats and kneazies,NA,NA,0,FALSE,TRUE,FALSE,FALSE,squib,human,NA,NA,NA,NA,NA
+5a1098653dc2080021cd876c,Argus Filch,"Caretaker, Hogwarts",NA,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,FALSE,FALSE,squib,human,NA,NA,NA,NA,NA
+5a1098bd3dc2080021cd876d,Justin Finch-Fletchley,student,Hufflepuff,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,TRUE,FALSE,unknown,human,Lord Voldemort ,NA,NA,NA,NA
+5a1098fd3dc2080021cd876e,Seamus Finnigan,student,Gryffindor,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,TRUE,FALSE,half-blood,human,banshee,NA,NA,NA,NA
+5a1099353dc2080021cd876f,Marcus Flint,student,Slytherin,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,FALSE,FALSE,unknown,human,NA,NA,NA,NA,NA
+5a10995b3dc2080021cd8770,Nicolas Flamel,Alchemist,NA,Beauxbatons Academy of Magic,0,FALSE,FALSE,FALSE,FALSE,unknown,human,NA,NA,NA,NA,NA
+5a1099893dc2080021cd8771,Mundungus Fletcher,Dealer of Wizarding Artifacts,NA,NA,0,FALSE,TRUE,FALSE,FALSE,half-blood,human,NA,Dung,NA,NA,NA
+5a1099cf3dc2080021cd8772,Filius Flitwick,"Professor, Charms",Ravenclaw,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,FALSE,FALSE,unknown,part-goblin,Lord Voldemort,NA,NA,NA,NA
+5a1099f93dc2080021cd8773,Cornelius Fudge,Minister of Magic,NA,NA,0,TRUE,FALSE,FALSE,FALSE,unknown,human,NA,NA,NA,NA,NA
+5a109a1a3dc2080021cd8774,Marvolo Gaunt,NA,NA,NA,0,FALSE,FALSE,FALSE,FALSE,pure-blood,human,NA,NA,NA,NA,NA
+5a109a253dc2080021cd8775,Merope Gaunt,NA,NA,NA,0,FALSE,FALSE,FALSE,FALSE,pure-blood,human,NA,NA,NA,NA,NA
+5a109a2c3dc2080021cd8776,Morfin Gaunt,NA,NA,NA,0,FALSE,FALSE,FALSE,FALSE,pure-blood,human,NA,NA,NA,NA,NA
+5a109a553dc2080021cd8777,Anthony Goldstein,student,Ravenclaw,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,TRUE,FALSE,half-blood,human,NA,NA,NA,NA,NA
+5a109a763dc2080021cd8778,Goyle Sr.,NA,NA,NA,0,FALSE,FALSE,FALSE,TRUE,pure-blood,human,NA,NA,NA,NA,NA
+5a109aa03dc2080021cd8779,Gregory Goyle,student,Slytherin,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,FALSE,TRUE,pure-blood,human,NA,NA,NA,NA,NA
+5a109af13dc2080021cd877a,Hermione Granger,student,Gryffindor,Hogwarts School of Witchcraft and Wizardry,0,FALSE,TRUE,TRUE,FALSE,muggle-born,human,failure,NA,NA,"Vine wood, 10 3/4"", dragon heartstring",otter
+5a109b693dc2080021cd877b,Mykew Gregorovitch,Wand Maker,NA,NA,0,FALSE,FALSE,FALSE,FALSE,unknown,human,NA,NA,NA,NA,NA
+5a109b873dc2080021cd877c,Fenrir Greyback,NA,NA,NA,0,FALSE,FALSE,FALSE,TRUE,unknown,werewolf,NA,NA,NA,NA,NA
+5a109bb33dc2080021cd877d,Gellert Grindelwald,NA,NA,Durmstrang Institute,0,FALSE,FALSE,FALSE,FALSE,unknown,human,NA,Percival Graves,NA,NA,NA
+5a109bde3dc2080021cd877e,Wilhelmina Grubbly-Plank,"Professor, Care of Magical Creatures",NA,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,FALSE,FALSE,unknown,human,NA,NA,NA,NA,NA
+5a109bfc3dc2080021cd877f,Godric Gryffindor,"Founder, Hogwarts",Gryffindor,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,FALSE,FALSE,unknown,human,NA,NA,NA,NA,NA
+5a109c3d3dc2080021cd8780,Rubeus Hagrid,"Groundkeeper, Professor, Care of Magical Creatures",Gryffindor,Hogwarts School of Witchcraft and Wizardry,0,FALSE,TRUE,FALSE,FALSE,unknown,half-giant,Lord Voldemort,NA,NA,"Oak, 16"", unknown core",NA
+5a109c5c3dc2080021cd8781,Rolanda Hooch,Quidditch Referee ,NA,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,FALSE,FALSE,unknown,human,NA,NA,NA,NA,NA
+5a109c813dc2080021cd8782,Mafalda Hopkirk,"Assistant, mproper Use of Magic Office",NA,NA,0,TRUE,FALSE,FALSE,FALSE,unknown,human,NA,NA,NA,NA,NA
+5a109c993dc2080021cd8783,Helga Hufflepuff,"Founder, Hogwarts",Hufflepuff,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,FALSE,FALSE,unknown,human,NA,NA,NA,NA,NA
+5a109cb83dc2080021cd8784,Angelina Johnson,student,Gryffindor,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,TRUE,FALSE,unknown,human,NA,NA,NA,NA,NA
+5a109cd33dc2080021cd8785,Lee Jordan,student,Gryffindor,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,TRUE,FALSE,unknown,human,NA,River,NA,NA,NA
+5a109cf73dc2080021cd8786,Bertha Jorkins,Department of Magical Games and Sports Employee,NA,Hogwarts School of Witchcraft and Wizardry,0,TRUE,FALSE,FALSE,FALSE,unknown,human,NA,NA,NA,NA,NA
+5a109d2d3dc2080021cd8787,Igor Karkaroff,"Headmaster, Durmstrang",NA,Durmstrang Institute,0,FALSE,FALSE,FALSE,TRUE,unknown,human,NA,NA,NA,NA,NA
+5a109d4a3dc2080021cd8788,Viktor Krum,Bulgarian Quiddich Seeker,NA,Durmstrang Institute,0,FALSE,FALSE,FALSE,FALSE,unknown,human,NA,NA,NA,NA,NA
+5a109d893dc2080021cd8789,Bellatrix Lestrange,NA,Slytherin,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,FALSE,TRUE,pure-blood,human,NA,Bella,NA,"Walnut, 10 3/4"", dragon heartstring",NA
+5a109d9f3dc2080021cd878a,Rabastan Lestrange,NA,Slytherin,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,FALSE,TRUE,pure-blood,human,NA,NA,NA,NA,NA
+5a109dab3dc2080021cd878b,Rodolphus Lestrange,NA,Slytherin,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,FALSE,TRUE,pure-blood,human,NA,NA,NA,NA,NA
+5a109de83dc2080021cd878c,Gilderoy Lockhart,"Professor, Defense Against the Dark Arts",Ravenclaw,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,FALSE,FALSE,half-blood,human,cornish pixies,NA,NA,"Cherry, 9"", dragon heartstring",NA
+5a109e143dc2080021cd878d,Alice Longbottom,Auror (formerly),Gryffindor,Hogwarts School of Witchcraft and Wizardry,0,FALSE,TRUE,FALSE,FALSE,pure-blood,human,NA,NA,NA,NA,NA
+5a109e1e3dc2080021cd878e,Frank Longbottom,Auror (formerly),Gryffindor,Hogwarts School of Witchcraft and Wizardry,0,FALSE,TRUE,FALSE,FALSE,pure-blood,human,NA,NA,NA,NA,NA
+5a109e253dc2080021cd878f,Augusta Longbottom,NA,Gryffindor,Hogwarts School of Witchcraft and Wizardry,0,FALSE,TRUE,FALSE,FALSE,pure-blood,human,NA,NA,NA,NA,NA
+5a109e543dc2080021cd8790,Neville Longbottom,student,Gryffindor,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,TRUE,FALSE,pure-blood,human,Severus Snape,NA,NA,"Cherry, 13"", unicorn hair",NA
+5a109e943dc2080021cd8791,Luna Lovegood,student,Ravenclaw,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,TRUE,FALSE,unknown,human,NA,Loony Lovegood,NA,NA,hare
+5a109ebd3dc2080021cd8792,Xenophilius Lovegood,"Editor, The Quibbler",Ravenclaw,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,FALSE,FALSE,unknown,human,NA,Xeno,NA,NA,NA
+5a109f053dc2080021cd8793,Remus Lupin,"Professor, Defence Against the Dark Arts",Gryffindor,Hogwarts School of Witchcraft and Wizardry,0,FALSE,TRUE,FALSE,FALSE,half-blood,werewolf,full moon,Moony,NA,"Cypress, 10 1/4"", unicorn hair",wolf
+5a109f433dc2080021cd8794,Walden Macnair,"Executioner, Committee of Disposal of Dangerous Creatures",NA,NA,0,TRUE,FALSE,FALSE,TRUE,unknown,human,NA,NA,NA,NA,NA
+5a109f8b3dc2080021cd8795,Draco Malfoy,student,Slytherin,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,FALSE,TRUE,pure-blood,human,NA,NA,NA,"Hawthorn, 10"", unicorn hair",NA
+5a109fa83dc2080021cd8796,Lucius Malfoy,School Governer of Hogwarts,Slytherin,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,FALSE,TRUE,pure-blood,human,NA,NA,NA,NA,NA
+5a109fde3dc2080021cd8797,Narcissa Malfoy,NA,Slytherin,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,FALSE,TRUE,pure-blood,human,NA,NA,NA,NA,NA
+5a1222c50f5ae10021650d6d,Madam Malkin,"Shop Owner, Madam Malkin's Robes for All Occasions",NA,NA,0,FALSE,FALSE,FALSE,FALSE,unknown,human,NA,NA,NA,NA,NA
+5a12231d0f5ae10021650d6e,Olympe Maxime,"Headmistress, Beauxbatons Academy of Magic",NA,Beauxbatons Academy of Magic,0,FALSE,TRUE,FALSE,FALSE,half-giant,half-giant,NA,NA,NA,NA,NA
+5a1223720f5ae10021650d6f,Ernest Macmillan,student,Hufflepuff,Hogwarts Academy of Witchcraft and Wizardry,0,FALSE,FALSE,TRUE,FALSE,pure-blood,human,Lord Voldemort,Ernie,NA,NA,boar
+5a1223ed0f5ae10021650d70,Minerva McGonagall,"Professor, Transfiguration",Gryffindor,Hogwarts School of Witchcraft and Wizardry,0,TRUE,TRUE,FALSE,FALSE,half-blood,human,Lord Voldemort,NA,tabby cat,"Fir, 9 1/2"", dragon heartstring",cat
+5a1225210f5ae10021650d71,Alastor Moody,NA,NA,Hogwarts School of Witchcraft and Wizardry,0,TRUE,TRUE,FALSE,FALSE,pure-blood,human,NA,Mad-Eye,NA,NA,NA
+5a1225640f5ae10021650d72,Theodore Nott,student,Slytherin,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,FALSE,FALSE,pure-blood,human,NA,NA,NA,NA,NA
+5a1225a20f5ae10021650d73,Garrick Ollivander,Wandmaker,Ravenclaw,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,FALSE,FALSE,half-blood,human,NA,NA,NA,"Hornbeam, 12 3/4"", dragon heartstring",NA
+5a1225e30f5ae10021650d74,Pansy Parkinson,student,Slytherin,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,FALSE,FALSE,unknown,human,NA,NA,NA,NA,NA
+5a12260f0f5ae10021650d75,Padma Patil,student,Ravenclaw,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,TRUE,FALSE,unknown,human,NA,NA,NA,NA,NA
+5a1226520f5ae10021650d76,Parvati Patil,student,Gryffindor,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,TRUE,FALSE,unknown,human,mummy,NA,NA,NA,NA
+5a1226d70f5ae10021650d77,Peter Pettigrew,NA,Gryffindor,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,FALSE,TRUE,unknown,human,Lord Voldemort,Wormtail,rat,"Chestnut, 9 1/4, dragon heartstring",NA
+5a12273f0f5ae10021650d78,Antioch Peverell,NA,NA,NA,0,FALSE,FALSE,FALSE,FALSE,pure-blood,human,NA,NA,NA,"Elder, 15"", Thestral tail hair core",NA
+5a12276b0f5ae10021650d79,Cadmus Peverell,Owner of the resurrection stone,NA,NA,0,FALSE,FALSE,FALSE,FALSE,pure-blood,human,NA,NA,NA,NA,NA
+5a12279f0f5ae10021650d7a,Ignotus Peverell,Owner of the invisibility cloak,NA,NA,0,FALSE,FALSE,FALSE,FALSE,pure-blood,human,NA,NA,NA,NA,NA
+5a1227e10f5ae10021650d7b,Irma Pince,"Librarian, Hogwarts",NA,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,FALSE,FALSE,unknown,human,Lord Voldemort,NA,NA,NA,NA
+5a1228070f5ae10021650d7c,Sturgis Podmore,NA,NA,NA,0,FALSE,TRUE,FALSE,FALSE,unknown,human,NA,NA,NA,NA,NA
+5a1228930f5ae10021650d7d,Poppy Pomfrey,"Matron, Hogwarts Hospital Wing",NA,NA,0,FALSE,FALSE,FALSE,FALSE,unknown,human,NA,NA,NA,NA,NA
+5a12292a0f5ae10021650d7e,Harry Potter,student,Gryffindor,Hogwarts School of Witchcraft and Wizardry,0,FALSE,TRUE,TRUE,FALSE,half-blood,human,dementor,The Boy Who Lived,NA,"Holly, 11"", phoenix feather",stag
+5a12298d0f5ae10021650d7f,James Potter I,NA,Gryffindor,Hogwarts School of Witchcraft and Wizardry,0,FALSE,TRUE,FALSE,FALSE,pure-blood,human,NA,Prongs,stag,"Mahogany, 11"", unknown core",stag
+5a1229e10f5ae10021650d80,Lily J. Potter,NA,Gryffindor,Hogwarts School of Witchcraft and Wizardry,0,FALSE,TRUE,FALSE,FALSE,muggle-born,human,NA,NA,NA,"Willow, 10 1/4"", unknown core",doe
+5a122a0e0f5ae10021650d81,Ernest Prang,Driver of the Knight Bus,NA,NA,0,FALSE,FALSE,FALSE,FALSE,unknown,human,NA,Ernie,NA,NA,NA
+5a122a880f5ae10021650d82,Quirinus Quirrell,"Professor, Defence Against the Dark Arts",Ravenclaw,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,FALSE,FALSE,half-blood,human,NA,NA,NA,"Alder, 9"", unicorn hair",NA
+5a122ac40f5ae10021650d83,Helena Ravenclaw,Ravenclaw House Ghost,Ravenclaw,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,FALSE,FALSE,unknown,ghost,NA,Grey Lady,NA,NA,NA
+5a122aef0f5ae10021650d84,Rowena Ravenclaw,"Founder, Hogwarts",Ravenclaw,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,FALSE,FALSE,unknown,human,NA,NA,NA,NA,NA
+5a122b320f5ae10021650d85,Mary Riddle,NA,NA,NA,0,FALSE,FALSE,FALSE,FALSE,muggle,human,NA,NA,NA,NA,NA
+5a122b510f5ae10021650d86,Thomas Riddle,NA,NA,NA,0,FALSE,FALSE,FALSE,FALSE,muggle,human,NA,NA,NA,NA,NA
+5a122b930f5ae10021650d87,Tom Riddle Sr,NA,NA,NA,0,FALSE,FALSE,FALSE,FALSE,muggle,human,NA,NA,NA,NA,NA
+5a122c200f5ae10021650d88,Tom Riddle,NA,Slytherin,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,FALSE,TRUE,half-blood,human,his own corpse,Lord Voldemort,NA,"Yew, 13 1/2"", phoenix feather core",NA
+5a122cbe0f5ae10021650d89,Demelza Robins,NA,Gryffindor,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,FALSE,FALSE,unknown,human,NA,NA,NA,NA,NA
+5a122cf40f5ae10021650d8a,Augustus Rockwood,Unspeakable,NA,NA,0,FALSE,FALSE,FALSE,TRUE,unknown,human,NA,NA,NA,NA,NA
+5a122ea30f5ae10021650d8b,Albert Runcorn,NA,NA,NA,0,TRUE,FALSE,FALSE,FALSE,pure-blood,human,NA,NA,NA,NA,NA
+5a122ecc0f5ae10021650d8c,Scabior,Snatcher,NA,NA,0,FALSE,FALSE,FALSE,FALSE,unknown,human,NA,NA,NA,NA,NA
+5a122f3d0f5ae10021650d8d,Newton Scamander ,"Author, Fantastic Beasts and Where to Find Them",Hufflepuff,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,FALSE,FALSE,unknown,human,NA,Newt ,NA,NA,NA
+5a122f750f5ae10021650d8e,Rufus Scrimgeour,Head of Auror Office,NA,NA,0,TRUE,FALSE,FALSE,FALSE,unknown,human,NA,NA,NA,NA,NA
+5a122fc60f5ae10021650d8f,Kingsley Shacklebolt,Auror,NA,NA,0,TRUE,TRUE,FALSE,FALSE,pure-blood,human,NA,NA,NA,NA,lynx
+5a1230070f5ae10021650d90,Stanley Shunpike,Conductor of the Knight Bus,NA,NA,0,FALSE,FALSE,FALSE,FALSE,unknown,human,NA,Stan ,NA,NA,NA
+5a1230e90f5ae10021650d91,Aurora Sinistra,"Professor, Astronomy",NA,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,FALSE,FALSE,unknown,human,NA,NA,NA,NA,NA
+5a1231fd0f5ae10021650d92,Rita Skeeter,Gossip Correspondant for the Daily Prophet,NA,NA,0,FALSE,FALSE,FALSE,FALSE,unknown,human,NA,Queen of the Quills,beetle,NA,NA
+5a1232600f5ae10021650d93,Horace Slughorn,"Professor, Potions",Slytherin,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,FALSE,FALSE,unknown,human,NA,NA,NA,"Cedar, 10 1/4"", dragon heartstring",NA
+5a12327c0f5ae10021650d94,Salazar Slytherin,"Founder, Hogwarts",Slytherin,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,FALSE,FALSE,pure-blood,human,NA,NA,NA,NA,NA
+5a1232b10f5ae10021650d95,Hepzibah Smith,NA,Hufflepuff,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,FALSE,FALSE,unknown,human,NA,NA,NA,NA,NA
+5a12333f0f5ae10021650d96,Zacharias Smith,student,Hufflepuff,Hogwarts School of Witchcraft and Wizardry,0,FALSE,TRUE,FALSE,FALSE,unknown,human,NA,NA,NA,NA,NA
+5a1233bc0f5ae10021650d97,Severus Snape,"Professor, Potions",Slytherin,Hogwarts School of Witchcraft and Wizardry,0,FALSE,TRUE,FALSE,TRUE,half-blood,human,NA,NA,NA,NA,doe
+5a1233ff0f5ae10021650d98,Alicia Spinnet,student,Gryffindor,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,TRUE,FALSE,unknown,human,NA,NA,NA,NA,NA
+5a1234500f5ae10021650d99,Pomona Sprout,"Professor, Herbology",Hufflepuff,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,FALSE,FALSE,unknown,human,NA,NA,NA,NA,NA
+5a1234820f5ae10021650d9a,Pius Thicknesse,NA,NA,NA,0,TRUE,FALSE,FALSE,FALSE,unknown,human,NA,NA,NA,NA,NA
+5a1234cb0f5ae10021650d9b,Dean Thomas,student,Gryffindor,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,TRUE,FALSE,half-blood,human,severed hand walking on it's own,NA,NA,NA,NA
+5a1235060f5ae10021650d9c,Andromeda Tonks,NA,Slytherin,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,FALSE,FALSE,pure-blood,human,NA,NA,NA,NA,NA
+5a1235790f5ae10021650d9d,Nymphadora Tonks,Auror,Hufflepuff,Hogwarts School of Witchcraft and Wizardry,0,TRUE,TRUE,FALSE,FALSE,half-blood,human (metamorphmagus),NA,Tonks,NA,NA,wolf
+5a1235c10f5ae10021650d9e,Edward Tonks,NA,NA,NA,0,FALSE,FALSE,FALSE,FALSE,muggle-born,human,NA,Ted,NA,NA,NA
+5a12361f0f5ae10021650d9f,Travers,Ministry of Magic Official,NA,NA,0,TRUE,FALSE,FALSE,TRUE,unknown,human,NA,NA,NA,NA,NA
+5a12368a0f5ae10021650da0,Sybill Trelawney,"Professor, Divination",Ravenclaw,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,FALSE,FALSE,half-blood,human,NA,NA,NA,"Hazel, 9 1/2"", unicorn hair",NA
+5a1236eb0f5ae10021650da1,Dolores Umbridge,Head of the Muggle Born Registration Commission,Slytherin,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,FALSE,FALSE,half-blood,human,NA,NA,NA,"Birch, 8"", dragon heartstring",persian cat
+5a1237150f5ae10021650da2,Emmeline Vance,NA,NA,NA,0,FALSE,TRUE,FALSE,FALSE,unknown,human,NA,NA,NA,NA,NA
+5a1237480f5ae10021650da3,Romilda Vane,NA,Gryffindor,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,TRUE,FALSE,unknown,human,NA,NA,NA,NA,NA
+5a12376d0f5ae10021650da4,Septima Vector,"Professor, Arithmancy",NA,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,FALSE,FALSE,unknown,human,NA,NA,NA,NA,NA
+5a1237c00f5ae10021650da5,Arthur Weasley,"Head, Misuse of Muggle Artifacts ",Gryffindor,Hogwarts School of Witchcraft and Wizardry,0,TRUE,TRUE,FALSE,FALSE,pure-blood,human,NA,NA,NA,NA,weasel
+5a1238070f5ae10021650da6,William Weasley,"Curse Breaker, Gringotts Bank",Gryffindor,Hogwarts School of Witchcraft and Wizardry,0,FALSE,TRUE,FALSE,FALSE,pure-blood,human,NA,Bill,NA,NA,NA
+5a1238350f5ae10021650da7,Charles Weasley,Dragonologist,Gryffindor,Hogwarts School of Witchcraft and Wizardry,0,FALSE,TRUE,FALSE,FALSE,pure-blood,human,NA,Charlie,NA,"Ash, 12"", unicorn hair tail",NA
+5a12387a0f5ae10021650da8,Fred Weasley,co-owner of Weasleys' Wizard Wheezes,Gryffindor,Hogwarts School of Witchcraft and Wizardry,0,FALSE,TRUE,FALSE,FALSE,pure-blood,human,NA,NA,NA,NA,NA
+5a1238b20f5ae10021650da9,George Weasley,co-owner of Weasleys' Wizard Wheezes,Gryffindor,Hogwarts School of Witchcraft and Wizardry,0,FALSE,TRUE,FALSE,FALSE,pure-blood,human,NA,NA,NA,NA,NA
+5a1239130f5ae10021650daa,Ginevra Weasley,student,Gryffindor,Hogwarts School of Witchcraft and Wizardry,0,FALSE,TRUE,TRUE,FALSE,pure-blood,human,NA,Ginny,NA,NA,horse
+5a12393d0f5ae10021650dab,Molly Weasley,student,Gryffindor,Hogwarts School of Witchcraft and Wizardry,0,FALSE,TRUE,FALSE,FALSE,pure-blood,human,corpses of her family,NA,NA,NA,NA
+5a12395f0f5ae10021650dac,Percy Weasley,student,Gryffindor,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,FALSE,FALSE,pure-blood,human,NA,NA,NA,NA,NA
+5a1239c80f5ae10021650dad,Ronald Weasley,student,Gryffindor,Hogwarts School of Witchcraft and Wizardry,0,FALSE,TRUE,TRUE,FALSE,pure-blood,human,Aragog,Ron,NA,"Willow, 14"", unicorn hair tail",jack russell terrier
+5a1239f10f5ae10021650dae,Oliver Wood,student,Gryffindor,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,FALSE,FALSE,unknown,human,NA,NA,NA,NA,NA
+5a123a110f5ae10021650daf,Kennilworthy Whisp,"Author, Quiddich Through The Ages",NA,NA,0,FALSE,FALSE,FALSE,FALSE,unknown,human,NA,NA,NA,NA,NA
+5a123a460f5ae10021650db0,Corban Yaxley,NA,NA,NA,0,TRUE,FALSE,FALSE,TRUE,unknown,human,NA,NA,NA,NA,NA
+5a123a710f5ae10021650db1,Blaise Zabini,NA,Slytherin,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,FALSE,FALSE,unknown,human,NA,NA,NA,NA,NA
+5a123a950f5ae10021650db2,Aragog,NA,NA,NA,0,FALSE,FALSE,FALSE,FALSE,unknown,acromantula,NA,NA,NA,NA,NA
+5a123aa70f5ae10021650db3,Bane,NA,NA,NA,0,FALSE,FALSE,FALSE,FALSE,unknown,centaur,NA,NA,NA,NA,NA
+5a123ac60f5ae10021650db4,Beedle the Bard,Fairytale Author,NA,NA,0,FALSE,FALSE,FALSE,FALSE,unknown,human,NA,NA,NA,NA,NA
+5a123af40f5ae10021650db5,Bloody Baron,Slytherin House Ghost,Slytherin,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,FALSE,FALSE,unknown,ghost,NA,NA,NA,NA,NA
+5a123b110f5ae10021650db6,Buckbeak,NA,NA,NA,0,FALSE,FALSE,FALSE,FALSE,unknown,hippogriff,NA,NA,NA,NA,NA
+5a123b450f5ae10021650db7,Cadogan,Gryffindor Tower Door Guard,Gryffindor,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,FALSE,FALSE,pure-blood,human,NA,NA,NA,NA,NA
+5a123bfa0f5ae10021650db8,Crookshanks,NA,NA,NA,0,FALSE,FALSE,FALSE,FALSE,unknown,cat,NA,NA,NA,NA,NA
+5a123c260f5ae10021650db9,Dobby,NA,NA,NA,0,FALSE,FALSE,FALSE,FALSE,unknown,house-elf,NA,NA,NA,NA,NA
+5a123c710f5ae10021650dba,Errol,NA,NA,NA,0,FALSE,FALSE,FALSE,FALSE,unknown,Great Grey Owl,NA,NA,NA,NA,NA
+5a123c8c0f5ae10021650dbb,Fang,NA,NA,NA,0,FALSE,FALSE,FALSE,FALSE,unknown,Boarhound,NA,NA,NA,NA,NA
+5a123cb40f5ae10021650dbc,Fat Friar,Hufflepuff House Ghost,Hufflepuff,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,FALSE,FALSE,unknown,ghost,NA,NA,NA,NA,NA
+5a123cd20f5ae10021650dbd,Fridfwulfa,NA,NA,NA,0,FALSE,FALSE,FALSE,FALSE,unknown,giant,NA,NA,NA,NA,NA
+5a123cf00f5ae10021650dbe,Fat Lady,Gryffindor Tower Door Guard,NA,NA,0,FALSE,FALSE,FALSE,FALSE,unknown,portrait,NA,NA,NA,NA,NA
+5a123d3a0f5ae10021650dbf,Fawkes,NA,NA,NA,0,FALSE,FALSE,FALSE,FALSE,unknown,phoenix,NA,NA,NA,NA,NA
+5a123d520f5ae10021650dc0,Firenze,"Professor, Divination",NA,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,FALSE,FALSE,unknown,centaur,NA,NA,NA,NA,NA
+5a123d680f5ae10021650dc1,Fluffy,NA,NA,NA,0,FALSE,FALSE,FALSE,FALSE,unknown,three-headed dog,NA,NA,NA,NA,NA
+5a123d7c0f5ae10021650dc2,Grawp,NA,NA,NA,0,FALSE,FALSE,FALSE,FALSE,unknown,giant,NA,NA,NA,NA,NA
+5a123d9b0f5ae10021650dc3,Griphook,"Employee, Gringotts Wizarding Bank",NA,NA,0,FALSE,FALSE,FALSE,FALSE,unknown,goblin,NA,NA,NA,NA,NA
+5a123db20f5ae10021650dc4,Hedwig,NA,NA,NA,0,FALSE,FALSE,FALSE,FALSE,unknown,Snowy Owl,NA,NA,NA,NA,NA
+5a123dc30f5ae10021650dc5,Hokey,NA,NA,NA,0,FALSE,FALSE,FALSE,FALSE,unknown,house-elf,NA,NA,NA,NA,NA
+5a123de10f5ae10021650dc6,Kreacher,NA,NA,NA,0,FALSE,FALSE,FALSE,FALSE,unknown,house-elf,NA,NA,NA,NA,NA
+5a123df10f5ae10021650dc7,Magorian,NA,NA,NA,0,FALSE,FALSE,FALSE,FALSE,unknown,centaur,NA,NA,NA,NA,NA
+5a123e450f5ae10021650dc8,Myrtle Warren,student,Ravenclaw,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,FALSE,FALSE,muggle-born,ghost,NA,Moaning Myrtle,NA,NA,NA
+5a123e600f5ae10021650dc9,Mrs. Norris,NA,NA,NA,0,FALSE,FALSE,FALSE,FALSE,unknown,cat,NA,NA,NA,NA,NA
+5a123e870f5ae10021650dca,Great Aunt Muriel,NA,NA,NA,0,FALSE,FALSE,FALSE,FALSE,unknown,human,NA,NA,NA,NA,NA
+5a123e9f0f5ae10021650dcb,Nagini,NA,NA,NA,0,FALSE,FALSE,FALSE,FALSE,unknown,horcrux,NA,NA,NA,NA,NA
+5a123f130f5ae10021650dcc,Nicholas de Mimsy-Porpington,Gryffindor House Ghost,Gryffindor,Hogwarts School of Witchcraft and Wizardry,0,FALSE,FALSE,FALSE,FALSE,unknown,ghost,NA,Nearly Headless Nick,NA,NA,NA
+5a123f3b0f5ae10021650dcd,Norbert,NA,NA,NA,0,FALSE,FALSE,FALSE,FALSE,unknown,Norwegian Ridgeback,NA,NA,NA,NA,NA
+5a123f7c0f5ae10021650dce,Peeves,NA,NA,NA,0,FALSE,FALSE,FALSE,FALSE,unknown,poltergeist,NA,NA,NA,NA,NA
+5a123f970f5ae10021650dcf,Pigwidgeon,NA,NA,NA,0,FALSE,FALSE,FALSE,FALSE,unknown,scops owl,NA,Pig,NA,NA,NA
+5a123fbf0f5ae10021650dd0,Madam Rosmerta,"Owner, The Three Broomsticks",NA,NA,0,FALSE,FALSE,FALSE,FALSE,unknown,human,NA,NA,NA,NA,NA
+5a123fd20f5ae10021650dd1,Ronan,NA,NA,NA,0,FALSE,FALSE,FALSE,FALSE,unknown,centaur,NA,NA,NA,NA,NA
+5a123fe30f5ae10021650dd2,Trevor,NA,NA,NA,0,FALSE,FALSE,FALSE,FALSE,unknown,toad,NA,NA,NA,NA,NA
+5a123fff0f5ae10021650dd3,Winky,NA,NA,NA,0,FALSE,FALSE,FALSE,FALSE,unknown,house-elf,NA,NA,NA,NA,NA

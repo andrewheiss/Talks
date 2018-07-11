@@ -134,6 +134,14 @@ parsed <- jsonlite::fromJSON(content(response, "text"), simplifyVector = FALSE)
 characters <- bind_rows(parsed)
 ```
 
+```{r save-data, include=FALSE, eval=FALSE}
+write_csv(characters, "data/hp_characters.csv")
+```
+
+```{r read-data, include=FALSE, eval=FALSE}
+characters <- read_csv("data/hp_characters.csv")
+```
+
 Next, do some quick data processing (which goes beyond the scope of this talk):
 
 ```{r student-prof-houses}
