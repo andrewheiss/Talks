@@ -14,4 +14,4 @@ This repository contains:
 
 ---
 
-[![Slide thumbnail](imgages/slides-thumb.png)](presentation/andrew-heiss_2018-07-11_utah-rug-dataviz.pdf)
+[![Slide thumbnail](images/slides-thumb.png)](presentation/andrew-heiss_2018-07-11_utah-rug-dataviz.pdf)
