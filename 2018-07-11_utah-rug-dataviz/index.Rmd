@@ -55,6 +55,7 @@ Many people have created many useful tools for selecting the correct chart type 
 
 - [**The Data Visualisation Catalogue**](http://www.datavizcatalogue.com/): Descriptions, explanations, examples, and tools for creating 60 different types of visualizations.
 - [**The Data Viz Project**](http://datavizproject.com/): Descriptions and examples for 150 different types of visualizations. Also allows you to search by data shape and chart function (comparison, correlation, distribution, geographical, part to whole, trend over time, etc.).
+- [**From Data to Viz**](https://www.data-to-viz.com/): A decision tree for dozens of chart types with links to R and Python code.
 - [**The Chartmaker Directory**](http://chartmaker.visualisingdata.com/): Examples of how to create 51 different types of visualizations in 31 different software packages, including Excel, Tableau, and R.
 - [**R Graph Catalog**](http://shinyapps.stat.ubc.ca/r-graph-catalog/): R code for 124 ggplot graphs.
 - [**Emery's Essentials**](http://annkemery.com/essentials/): Descriptions and examples of 26 different chart types.
