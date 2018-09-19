@@ -1,5 +1,5 @@
 ---
-title: "Introduction to data visualization with R"
+title: "A lightning quick introduction to data visualization"
 author:
 - name: Andrew Heiss, PhD
   affiliation: Brigham Young University

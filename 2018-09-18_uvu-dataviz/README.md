@@ -1,17 +1,17 @@
-# Introduction to data visualization with R
+# A lightning quick introduction to data visualization
 
 [Andrew Heiss](https://www.andrewheiss.com/) • Romney Institute of Public Management • Brigham Young University  
-Talk given in Salt Lake City at the [Utah R Users Group](https://twitter.com/utahrug)  
-July 11, 2018
+Talk given at a Department of Biology seminar at Utah Valley University  
+September 19, 2018
 
 ---
 
 This repository contains:
 
-- [An HTML page](https://talks.andrewheiss.com/utah-rug-dataviz/) full of helpful links and resources for data visualzation and a code walk-through.
-- [A PDF of the presentation](presentation/andrew-heiss_2018-07-11_utah-rug-dataviz.pdf)
-- [The PowerPoint file of the presentation](presentation/utah-rug-dataviz.pptx) (because I still haven't gotten around to using [xaringan](https://github.com/yihui/xaringan))
+- [An HTML page](https://talks.andrewheiss.com/uvu-dataviz/) full of helpful links and resources for data visualization.
+- [A PDF of the presentation](presentation/andrew-heiss_2018-09-19_uvu-dataviz.pdf)
+- [The PowerPoint file of the presentation](presentation/uvu-dataviz.pptx)
 
 ---
 
-[![Slide thumbnail](images/slides-thumb.png)](presentation/andrew-heiss_2018-07-11_utah-rug-dataviz.pdf)
+[![Slide thumbnail](img/slides-thumb.png)](presentation/andrew-heiss_2018-09-19_uvu-dataviz.pdf)
