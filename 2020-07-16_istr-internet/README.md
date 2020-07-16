@@ -8,10 +8,10 @@ July 16, 2020
 
 This repository contains:
 
-- [The PowerPoint file of the presentation](presentation/andrew-heiss_istr-internet.pptx)
-- [A PDF of the presentation](presentation/istr-internet.pdf)
+- [The PowerPoint file of the presentation](slides/andrew-heiss_istr-internet.pptx)
+- [A PDF of the presentation](slides/istr-internet.pdf)
 
 ---
 
-[![Slide thumbnail](img/slides-thumb.png)](presentation/istr-internet.pdf)
+[![Slide thumbnail](img/slides-thumb.png)](slides/istr-internet.pdf)
 
