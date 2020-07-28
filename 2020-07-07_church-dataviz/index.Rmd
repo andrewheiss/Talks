@@ -1,0 +1,1367 @@
+---
+title: "Data visualization"
+author: "Andrew Heiss"
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    lib_dir: "libs"
+    chakra: "libs/remark-latest.min.js"
+    css: ["default", "css/ath-slides.css", "css/ath-inferno-fonts.css", "css/animate.css"]
+    seal: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+      navigation:
+        scroll: false
+      # beforeInit: "libs/offline-mathjax.js"
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, 
+                      fig.retina = 3, fig.align = "center")
+```
+
+```{r packages-data, include=FALSE}
+library(tidyverse)
+library(ggthemes)
+library(scales)
+library(albersusa)
+library(sf)
+```
+
+class: center middle main-title section-title-4
+
+# Truth, beauty,<br>and data
+
+.class-info[
+
+.medium[**Andrew Heiss**]
+
+**andhs.co/church-dataviz**
+
+.light.small[Andrew Young School of Policy Studies<br>
+Georgia State University<br>
+July 7, 2020]
+
+]
+
+---
+
+name: outline
+class: title title-inv-7
+
+# Plan for today
+
+--
+
+.box-2.medium[Truth and beauty]
+
+--
+
+.box-3.medium[Data and beauty]
+
+--
+
+.box-5.medium[Design and beauty]
+
+--
+
+.box-7.medium[What next?]
+
+
+---
+
+layout: false
+name: facts-truth-beauty
+class: center middle section-title section-title-2 animated fadeIn
+
+# Truth and beauty
+
+---
+
+layout: true
+class: title title-2
+
+---
+
+# What is truth?
+
+.pull-left[
+
+.box-inv-2[“The first and fundamental principle of our holy religion is, that we believe that we have a right to embrace all, and every item of truth”]
+
+.box-inv-2[“[R]eceive truth, let it come from whence it may”
+]
+]
+
+.pull-right.center[
+<figure>
+  <img src="img/js.jpg" alt="Joseph Smith" title="Joseph Smith" width="70%">
+</figure>
+]
+
+???
+
+https://upload.wikimedia.org/wikipedia/commons/8/86/Joseph_Smith%2C_Jr._portrait_owned_by_Joseph_Smith_III.jpg
+
+---
+
+# What is truth?
+
+.box-inv-2.medium[Core principles of the universe?]
+
+--
+
+.box-inv-2.medium[Underlying trends in society?]
+
+--
+
+.box-inv-2.medium[Something transcendental?]
+
+--
+
+.box-inv-2.medium[Reality?]
+
+---
+
+# How do we find truth?
+
+.box-inv-2.medium[Science!]
+
+.center[
+<figure>
+  <img src="img/ndgt-scientism.png" alt="Neil deGrasse Tyson on science" title="Neil deGrasse Tyson on science" width="70%">
+</figure>
+]
+
+???
+
+[Original tweet](https://twitter.com/neiltyson/status/345551599382446081)
+
+---
+
+# But wait!
+
+.box-inv-2.medium.sp-after[Beware of scientism!]
+
+.box-2["… promotion of science as the best or only<br>objective means by which society should determine<br>normative and epistemological values"]
+
+???
+
+[Wikipedia](https://en.wikipedia.org/wiki/Scientism)
+
+---
+
+# Science is not the only way
+
+.box-inv-2.medium[Art]
+
+.box-inv-2.medium[Music]
+
+.box-inv-2.medium[Literature]
+
+.box-inv-2.medium[Religion]
+
+.box-inv-2.medium[Nature]
+
+???
+
+None of these methods deal with raw facts, though!
+
+---
+
+# Nothing here is factual…
+
+.box-inv-2[…but it all reveals truth]
+
+.pull-left[
+
+.pull-left[
+<figure>
+  <img src="img/les-mis.jpg" alt="ZZZ" title="ZZZ" width="100%">
+  <figcaption>Cosette</figcaption>
+</figure>
+]
+
+.pull-right[
+<figure>
+  <img src="img/King_Lear.jpg" alt="King Lear" title="King Lear" width="100%">
+  <figcaption>King Lear</figcaption>
+</figure>
+]
+
+]
+
+.pull-right[
+<figure>
+  <img src="img/beethoven.png" alt="ZZZ" title="ZZZ" width="100%">
+  <figcaption>Beethoven's 9th symphony</figcaption>
+</figure>
+]
+
+???
+
+Sources: 
+
+- [Cosette](https://commons.wikimedia.org/wiki/File:Cosette-sweeping-les-miserables-albert-bellenger-1886.jpg)
+- [King Lear](https://commons.wikimedia.org/wiki/File:King_Lear.jpg)
+- [Beethoven](https://commons.wikimedia.org/wiki/File:Beethoven,_Symphony_No._9,_finale,_bars_116-123.png)
+
+---
+
+layout: false
+class: middle
+
+.box-2.huge[Facts ≠ truth]
+
+---
+
+class: middle
+
+.box-2.large.sp-after[Where does truth come when<br>there are no facts?]
+
+--
+
+.box-inv-2.huge[Beauty]
+
+---
+
+layout: true
+class: title title-2
+
+---
+
+# Beauty in science
+
+.pull-left.center[
+
+<figure>
+  <img src="img/beautiful-question.jpg" alt="Frank Wilczek's A Beautiful Question" title="Frank Wilczek's A Beautiful Question" width="60%">
+</figure>
+
+]
+
+.box-inv-2.medium[This is also true for science and math<br>and other more<br>factual realms]
+
+---
+
+# Rhetoric and beauty
+
+.box-inv-2[λόγος&emsp;•&emsp;λέξις]
+
+.box-inv-2.tiny.sp-after[Logos&emsp;•&emsp;Lexis]
+
+.box-inv-2[Res&emsp;•&emsp;Verba]
+
+.box-inv-2[Essence&emsp;•&emsp;Structure]
+
+.box-inv-2.sp-after[Content&emsp;•&emsp;Form]
+
+.box-2.medium[Truth&emsp;•&emsp;Beauty]
+
+???
+
+One is the underlying metaphysical meaning—what the author or artist intends. The other is *how* they convey that message—what it looks like, what they used, etc.
+
+---
+
+# Content + form
+
+.box-inv-2.large[Art is how we translate core,<br>essential **content** (or truth!)<br>to different **forms**<br>for specific **audiences**.]
+
+---
+
+# Truth is beautiful
+
+.box-inv-2.medium[Truth ≠ facts]
+
+.box-inv-2.medium.sp-after[Truth comes from aesthetic<br>combination of content and form]
+
+.box-2.medium[Facts require beauty to be true]
+
+---
+
+layout: false
+name: data-truth-beauty
+class: center middle section-title section-title-3 animated fadeIn
+
+# Data and beauty
+
+---
+
+layout: true
+class: title title-3
+
+---
+
+# Just show me the data!
+
+```{r load-datasaurus-dozen, echo=FALSE}
+dozen <- read_tsv("data/DatasaurusDozen.tsv")
+my_data <- dozen %>% 
+  filter(dataset == "dino") %>% 
+  select(x, y)
+```
+
+--
+
+.pull-left-3.small-code[
+```{r head-datasaurus}
+head(my_data, 10)
+```
+]
+
+--
+
+.pull-middle-3.small-code[
+```{r summary-datasaurus, highlight.output=1}
+mean(my_data$x)
+mean(my_data$y)
+cor(my_data$x, my_data$y)
+```
+]
+
+--
+
+.pull-right-3[
+&nbsp;
+
+.box-inv-3[Seems reasonable]
+
+&nbsp;
+
+.box-inv-3[Seems reasonable]
+
+&nbsp;
+
+.box-inv-3[No correlation]
+]
+
+---
+
+# oh no
+
+.center[
+<figure>
+  <img src="img/DinoSequentialSmaller.gif" alt="Datasaurus Dozen" title="Datasaurus Dozen" width="100%">
+  <figcaption><a href="https://www.autodeskresearch.com/publications/samestats" target="_blank">The Datasaurus Dozen</a></figcaption>
+</figure>
+]
+
+---
+
+# Raw data is not enough
+
+.box-inv-3.small[Each of these has the same mean, standard deviation, variance, and correlation]
+
+```{r plot-full-dozen, echo=FALSE, fig.dim=c(10, 4), out.width="100%"}
+ggplot(filter(dozen, dataset != "bullseye"), aes(x = x, y = y)) +
+  geom_point(size = 1) +
+  facet_wrap(vars(dataset))
+```
+
+
+---
+
+# Humans love patterns
+
+.center[
+<figure>
+  <img src="img/pattern-processing.png" alt="Pattern processing" title="Pattern processing" width="100%">
+  <figcaption><a href="https://doi.org/10.3389/fnins.2014.00265" target="_blank">https://doi.org/10.3389/fnins.2014.00265</a></figcaption>
+</figure>
+]
+
+---
+
+# (Sometimes we love them too much)
+
+--
+
+.center[
+.box-inv-3.sp-after[**Pareidolia**: seeing patterns that aren't there.]
+]
+
+--
+
+.pull-left-3[
+![](img/pareidolia-1.jpg)
+]
+
+--
+
+.pull-middle-3[
+![](img/pareidolia-2.jpg)
+]
+
+--
+
+.pull-right-3[
+![](img/pareidolia-3.jpg)
+]
+
+---
+
+# Beauty is necessary to see patterns
+
+.pull-left[
+
+<figure>
+  <img src="img/amount-diffs-table.png" alt="Amount donated table" title="Amount donated table" width="100%">
+</figure>
+
+]
+
+--
+
+.pull-right.center[
+
+<figure>
+  <img src="img/amount-diffs.png" alt="Amount donated graph" title="Amount donated graph" width="85%">
+</figure>
+
+]
+
+---
+
+# What makes a great visualization?
+
+.box-inv-3["Graphical excellence is the **well-designed presentation of interesting data**—a matter of substance, of statistics, and of design … [It] consists of complex ideas communicated with clarity, precision, and efficiency. … [It] is that which **gives to the viewer the greatest number of ideas in the shortest time with the least ink in the smallest space** … [It] is nearly always multivariate … And graphical excellence requires **telling the truth about the data**."]
+
+.box-3.tiny[Edward Tufte, *The Visual Display of Quantitative Information*, p. 51]
+
+---
+
+# What makes a great visualization?
+
+.box-inv-3.medium[Good aesthetics]
+
+--
+
+.box-inv-3.medium[No substantive issues]
+
+--
+
+.box-inv-3.medium[No perceptual issues]
+
+--
+
+.box-inv-3.medium[Honesty + good judgment]
+
+.box-3.tiny[Kieran Healy, *Data Visualization: A Practical Introduction*]
+
+---
+
+# What's wrong?
+
+.center[
+<figure>
+  <img src="img/pie-genus.png" alt="Distribution of genus" title="Distribution of genus" width="60%">
+</figure>
+]
+
+???
+
+- Aesthetic issues
+- Substantive issues
+- Perceptual issues
+- Honesty + judgment issues
+
+---
+
+# What's wrong?
+
+.center[
+<figure>
+  <img src="img/changing-face-of-america.png" alt="Changing face of America" title="Changing face of America" width="45%">
+</figure>
+]
+
+???
+
+- Aesthetic issues
+- Substantive issues
+- Perceptual issues
+- Honesty + judgment issues
+
+---
+
+# What's wrong?
+
+.center[
+<figure>
+  <img src="img/how-stuff-works-recidivism.png" alt="Recidivism pie chart" title="Recidivism pie chart" width="45%">
+</figure>
+]
+
+???
+
+- Aesthetic issues
+- Substantive issues
+- Perceptual issues
+- Honesty + judgment issues
+
+---
+
+# What's right?
+
+.pull-left[
+
+```{r flatten-the-curve, echo=FALSE, fig.dim=c(4.8, 3.75), out.width="100%"}
+high_mean <- 12
+high_sd <- 4
+flat_mean <- 35
+flat_sd <- 12
+
+ggplot(tibble(x = c(0, 70)), aes(x = x)) +
+  stat_function(geom = "area", fun = dnorm, n = 1000, 
+                args = list(mean = high_mean, sd = high_sd),
+                fill = "#FF4136", alpha = 0.8) +
+  stat_function(geom = "area", fun = dnorm, n = 1000, 
+                args = list(mean = flat_mean, sd = flat_sd),
+                fill = "#0074D9", alpha = 0.8) +
+  geom_hline(yintercept = dnorm(flat_mean, flat_mean, flat_sd), 
+             linetype = "61", color = "grey75") +
+  annotate(geom = "text", x = qnorm(0.5, high_mean, high_sd), 
+           y = dnorm(qnorm(0.5, high_mean, high_sd), high_mean, high_sd) / 2, 
+           label = "Without\nprotective\nmeasures", color = "white", size = 3,
+           family = "Fira Sans Condensed", fontface = "bold") +
+  annotate(geom = "text", x = qnorm(0.5, flat_mean, sd = flat_sd), 
+           y = dnorm(qnorm(0.5, flat_mean, sd = flat_sd), flat_mean, sd = flat_sd) / 2, 
+           label = "With protective\nmeasures", color = "white", size = 3,
+           family = "Fira Sans Condensed", fontface = "bold") +
+  annotate(geom = "text", x = 45, y = dnorm(flat_mean, flat_mean, sd = flat_sd), 
+           label = "Healthcare system capacity", vjust = -0.5, hjust = 0, size = 3,
+           family = "Fira Sans Condensed", fontface = "bold") +
+  labs(x = "Time since first case", 
+       y = "# of\ncases",
+       title = "Flatten the curve!", 
+       subtitle = "Slow down community spread by social distancing",
+       caption = "Adapted from the CDC and The Economist\nVisit flattenthecurve.com") +
+  scale_x_continuous(expand = c(0, 0)) +
+  scale_y_continuous(expand = c(0, 0)) +
+  theme_minimal(base_family = "Fira Sans Condensed Light") +
+  theme(panel.grid = element_blank(),
+        axis.line = element_line(color = "black"),
+        axis.text = element_blank(),
+        axis.title = element_text(family = "Fira Sans Condensed", face = "bold"),
+        axis.title.y = element_text(angle = 0, vjust = 0.5),
+        plot.title = element_text(family = "Fira Sans Condensed", face = "bold", size = rel(1.7)),
+        plot.subtitle = element_text(size = rel(1.2), color = "grey50"),
+        plot.caption = element_text(color = "grey50"))
+```
+
+]
+
+???
+
+- Aesthetic issues
+- Substantive issues
+- Perceptual issues
+- Honesty + judgment issues
+
+--
+
+.pull-right.center[
+
+<figure>
+  <img src="img/bergstrom-tweet.png" alt="Carl Bergstrom tweet" title="Carl Bergstrom tweet" width="80%">
+  <figcaption><a href="https://twitter.com/CT_Bergstrom/status/1235865328074153986" target="_blank">Thread by Carl T. Bergstrom</a></figcaption>
+</figure>
+
+]
+
+???
+
+[Carl Bergstrom on the flatten the curve visualization](https://twitter.com/CT_Bergstrom/status/1235865328074153986)
+
+---
+
+layout: false
+class: bg-full bg-y-75
+background-image: url("img/napoleon-retreat.jpg")
+
+???
+
+Source: [Wikipedia](https://en.wikipedia.org/wiki/File:National_Museum_in_Poznan_-_Przej%C5%9Bcie_przez_Berezyn%C4%99.JPG)
+
+---
+
+layout: true
+class: title title-3
+
+---
+
+# Long distance!
+
+.center[
+<figure>
+  <img src="img/napoleon-google-maps.png" alt="Moscow to Vilnius" title="Moscow to Vilnius" width="80%">
+  <figcaption>Moscow to Vilnius</figcaption>
+</figure>
+]
+
+---
+
+# Very cold!
+
+```{r minard-temps, echo=FALSE, warning=FALSE, fig.width=12, fig.height=6.5}
+# https://github.com/vincentarelbundock/Rdatasets/tree/master/csv/HistData
+minard_temps <- read_csv("data/Minard.temp.csv") %>% 
+  uncount(days) %>% 
+  mutate(day_index = 1:n())
+
+ggplot(minard_temps, aes(x = day_index, y = temp)) +
+  geom_line(color = "#4472C4", size = 3) + 
+  labs(x = "Days since retreat from Moscow", y = "°C") +
+  theme_gdocs(base_size = 30)
+```
+
+---
+
+# Lots of people died!
+
+```{r minard-deaths, echo=FALSE, fig.height=6.5, fig.width=6.5}
+minard_deaths <- tribble(
+  ~status, ~count,
+  "Died", 422000,
+  "Survived", 10000
+)
+
+ggplot(minard_deaths, aes(x = "", y = count, fill = status)) +
+  geom_col() + 
+  coord_polar(theta = "y") +
+  scale_fill_manual(values = c("#FFC000", "#4472C4"), name = NULL) +
+  labs(title = "Napoleon’s Grande Armée") +
+  theme_void(base_family = "sans", base_size = 30) +
+  theme(legend.position = "bottom")
+```
+
+---
+
+layout: false
+class: bg-full
+background-image: url("img/minard.png")
+
+???
+
+Source: [Wikimedia Commons](https://upload.wikimedia.org/wikipedia/commons/2/29/Minard.png)
+
+---
+
+name: truth-beauty-design
+class: center middle section-title section-title-5 animated fadeIn
+
+# Design and beauty
+
+---
+
+layout: true
+class: title title-5
+
+---
+
+# Why even care about design?
+
+.center[
+<figure>
+  <img src="img/why-design.png" alt="Why care about design?" title="Why care about design?" width="100%">
+</figure>
+]
+
+---
+
+# Beauty, stories, and truth
+
+.box-inv-5[Truth comes from **aesthetic** combination of content and form.]
+
+--
+
+.box-inv-5[Raw facts must be communicated through some form (stories!).]
+
+--
+
+.box-inv-5.sp-after[**Beauty** shapes that form.]
+
+--
+
+.box-5.medium[There are aesthetic principles we can<br>follow to create beauty—and truth.]
+
+---
+
+# Principles of design
+
+--
+
+.box-inv-5.medium[There are thousands of books and<br>centuries of debate and theory about<br>what makes good design.]
+
+--
+
+.box-5.medium[The easiest<br>and most memorable distillation<br>of these principles is **CRAP**.]
+
+---
+
+# CRAP
+
+.pull-left[
+
+.box-5[Use these principles as a checklist when creating and critiquing designed objects:]
+
+.box-1[Contrast]
+
+.box-inv-4[Repetition]
+
+.box-inv-1[Alignment]
+
+.box-4[Proximity]
+
+]
+
+.pull-right.center[
+<figure>
+  <img src="img/williams-design-book.jpg" alt="Robin Williams's The Non-Designers Design Book" title="Robin Williams's The Non-Designers Design Book" width="65%">
+  <figcaption>Buy this book and your life will change forever.</figcaption>
+</figure>
+]
+
+---
+
+layout: true
+class: title title-1
+
+---
+
+name: contrast
+
+# Contrast
+
+.box-inv-1.large[If two items are not exactly<br>the same, make them different.<br>Really different.]
+
+--
+
+.box-1.large[**Don't be a wimp.**]
+
+---
+
+# Typographic contrast: Family
+
+.box-inv-1[Use contrasting type families]
+
+.box-1.small[<span style="font-family: 'EB Garamond'">Serif</span> + <span style="font-family: 'Oswald'">Sans serif</span>&emsp;&emsp;<span style="font-family: 'Dancing Script'">Script</span> + <span style="font-family: 'EB Garamond'">Serif</span>&emsp;&emsp;<span style="font-family: 'Alfa Slab One'">Slab</span> + <span style="font-family: 'Oswald'">Sans serif</span>&emsp;&emsp;etc.]
+
+<table>
+  <tr>
+    <td class="cell-left">Serif</td>
+    <td class="cell-left" style="font-family: 'EB Garamond'">Sphinx of black quartz, judge my vow</td>
+  </tr>
+  <tr>
+    <td class="cell-left">Sans serif</td>
+    <td class="cell-left" style="font-family: 'Oswald'">Sphinx of black quartz, judge my vow</td>
+  </tr>
+  <tr>
+    <td class="cell-left">Slab serif</td>
+    <td class="cell-left" style="font-family: 'Alfa Slab One'">Sphinx of black quartz, judge my vow</td>
+  </tr>
+  <tr>
+    <td class="cell-left">Script</td>
+    <td class="cell-left" style="font-family: 'Dancing Script'">Sphinx of black quartz, judge my vow</td>
+  </tr>
+  <tr>
+    <td class="cell-left">Monospaced&emsp;</td>
+    <td class="cell-left" style="font-family: 'Inconsolata'">Sphinx of black quartz, judge my vow</td>
+  </tr>
+</table>
+
+---
+
+# Typographic constrast: Family
+
+.box-inv-1[Add contrast in family]
+
+.pull-left.frame[
+
+<span style="font-size: 1em; font-family: 'EB Garamond';">Here’s a heading</span>
+
+<span style="font-size: 0.9em; font-family: 'Times', serif;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+
+]
+
+--
+
+.pull-right.frame[
+
+<span style="font-size: 1.1em; font-family: 'Alfa Slab One'; font-weight: 600;">Here’s a heading</span>
+
+<span style="font-size: 0.9em; font-family: 'Source Sans Pro'; font-weight: 300;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+
+]
+
+---
+
+# Typographic contrast: Weight
+
+.box-inv-1[Use contrasting weights in same type family]
+
+.box-1.small[<span style="font-family: 'Source Sans Pro'; font-weight: 700;">Bold</span> + <span style="font-family: 'Source Sans Pro'; font-weight: 400;">Regular</span>&emsp;&emsp;<span style="font-family: 'Source Sans Pro'; font-weight: 400;">Regular</span> + <span style="font-family: 'Source Sans Pro'; font-weight: 200;">Extra light</span>&emsp;&emsp;<span style="font-family: 'Source Sans Pro'; font-weight: 900;">Black</span> + <span style="font-family: 'Source Sans Pro'; font-weight: 300;">Light</span>&emsp;&emsp;etc.]
+
+<table>
+  <tr>
+    <td class="cell-left">Extra light&emsp;</td>
+    <td class="cell-left" style="font-family: 'Source Sans Pro'; font-weight: 200;">Sphinx of black quartz, judge my vow</td>
+  </tr>
+  <tr>
+    <td class="cell-left">Light</td>
+    <td class="cell-left" style="font-family: 'Source Sans Pro'; font-weight: 300;">Sphinx of black quartz, judge my vow</td>
+  </tr>
+  <tr>
+    <td class="cell-left">Regular</td>
+    <td class="cell-left" style="font-family: 'Source Sans Pro'; font-weight: 400;">Sphinx of black quartz, judge my vow</td>
+  </tr>
+  <tr>
+    <td class="cell-left">Semi bold</td>
+    <td class="cell-left" style="font-family: 'Source Sans Pro'; font-weight: 600;">Sphinx of black quartz, judge my vow</td>
+  </tr>
+  <tr>
+    <td class="cell-left">Bold&emsp;</td>
+    <td class="cell-left" style="font-family: 'Source Sans Pro'; font-weight: 700;">Sphinx of black quartz, judge my vow</td>
+  </tr>
+  <tr>
+    <td class="cell-left">Black</td>
+    <td class="cell-left" style="font-family: 'Source Sans Pro'; font-weight: 900;">Sphinx of black quartz, judge my vow</td>
+  </tr>
+</table>
+
+---
+
+# Typographic constrast: Weight
+
+.box-inv-1[Add contrast in weight]
+
+
+.pull-left.frame[
+
+<span style="font-size: 1em;">Here’s a heading</span>
+
+<span style="font-size: 0.9em;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+
+]
+
+--
+
+.pull-right.frame[
+
+<span style="font-size: 1.3em; font-family: 'Source Sans Pro'; font-weight: 600;">Here’s a heading</span>
+
+<span style="font-size: 0.9em; font-family: 'Source Sans Pro'; font-weight: 200;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+
+]
+
+---
+
+# Size contrast
+
+.box-inv-1[Use contrasting sizes]
+
+&nbsp;
+
+--
+
+.box-1[<span style="font-size: 3em;">Huge</span>&emsp;&emsp;<span style="font-size: 2em;">Big</span>&emsp;&emsp;Regular&emsp;&emsp;<span style="font-size: 0.7em;">Small</span>&emsp;&emsp;<span style="font-size: 0.3em;">Tiny</span>]
+
+---
+
+# Color contrast
+
+.box-inv-1[Color theory]
+
+.box-1.tiny[[color.adobe.com](https://color.adobe.com)]
+
+.pull-left[
+<figure>
+  <img src="img/triad.png" alt="Triad" title="Triad" width="100%">
+  <figcaption>Triad</figcaption>
+</figure>
+
+<figure>
+  <img src="img/monochromatic.png" alt="Monochromatic" title="Monochromatic" width="100%">
+  <figcaption>Monochromatic</figcaption>
+</figure>
+]
+
+.pull-right[
+<figure>
+  <img src="img/complementary.png" alt="Complementary" title="Complementary" width="100%">
+  <figcaption>Complementary</figcaption>
+</figure>
+
+<figure>
+  <img src="img/complementary-split.png" alt="Split complementary" title="Split complementary" width="100%">
+  <figcaption>Split complementary</figcaption>
+</figure>
+]
+
+---
+
+# Color contrast
+
+.center[
+<figure>
+  <img src="img/palette-atl-extracted.png" alt="Extracted colors" title="Extracted colors" width="50%">
+  <figcaption>Colors extracted from an image at <a href="https://color.adobe.com">color.adobe.com</a></figcaption>
+</figure>
+]
+
+???
+
+Photo by [Brad Huchteman](https://unsplash.com/photos/sR1Kz2auNJE) on Unsplash
+
+---
+
+# Usability and accessibility
+
+.box-inv-1.medium[Perceptually uniform colors]
+
+.box-1[Values close to each other use similar colors,<br>and values far from each other use different colors]
+
+--
+
+.box-inv-1.medium[Colorblind-safe colors]
+
+.box-1[8% of men & 0.05% of women have some form of color blindness]
+
+.box-1[Colors should be distinguishable by people<br>with common forms of color blindness]
+
+---
+
+# Perceptually uniform colors
+
+.pull-left[
+<figure>
+  <img src="img/palettes-typical.png" alt="Typical palettes" title="Typical palettes" width="100%">
+  <figcaption>Traditional palettes vs. viridis</figcaption>
+</figure>
+]
+
+--
+
+.pull-right[
+<figure>
+  <img src="img/palettes-deuteranopic.png" alt="Deuteranopic palettes" title="Deuteranopic palettes" width="100%">
+  <figcaption>Traditional palettes vs. viridis as seen with deuteranopia</figcaption>
+</figure>
+]
+
+---
+
+# Perceptually uniform colors
+
+```{r echo=FALSE}
+counties_ga <-  counties_sf("longlat") %>% 
+  filter(iso_3166_2 == "GA")
+```
+
+.pull-left-3[
+<figure>
+```{r ga1, echo=FALSE, fig.width=5, fig.height=6}
+ggplot(counties_ga) +
+  geom_sf(aes(fill = census_area)) + 
+  scale_fill_gradientn(colors = rainbow(5), guide = FALSE) +
+  theme_void()
+```
+
+<figcaption>Georgia counties filled by area, rainbow palette (NOT GOOD)</figcaption>
+</figure>
+]
+
+--
+
+.pull-middle-3[
+<figure>
+```{r ga2, echo=FALSE, fig.width=5, fig.height=6}
+ggplot(counties_ga) +
+  geom_sf(aes(fill = census_area)) + 
+  scale_fill_viridis_c(guide = FALSE) +
+  theme_void()
+```
+
+<figcaption>Georgia counties filled by area, viridis::viridis palette</figcaption>
+</figure>
+]
+
+--
+
+.pull-right-3[
+<figure>
+```{r ga3, echo=FALSE, fig.width=5, fig.height=6}
+ggplot(counties_ga) +
+  geom_sf(aes(fill = census_area)) + 
+  scale_fill_viridis_c(option = "inferno", guide = FALSE) +
+  theme_void()
+```
+
+<figcaption>Georgia counties filled by area, viridis::inferno palette</figcaption>
+</figure>
+]
+
+---
+
+layout: true
+class: title title-inv-4
+
+---
+
+name: repetition
+
+# Repetition
+
+&nbsp;
+
+.box-4.large[Repeat some aspect<br>of the design throughout<br>the entire piece.]
+
+---
+
+# Things to repeat
+
+.box-4.medium[Colors]
+
+--
+
+.box-4.medium[Fonts]
+
+.box-inv-4.sp-after[Families, weights, sizes]
+
+--
+
+.box-4.medium[Graphical elements]
+
+--
+
+.box-4.medium[Alignments]
+
+---
+
+layout: false
+class: bg-full
+background-image: url("img/oxfam-annual-report.jpg")
+
+???
+
+Source: Pages 5 and 9 from Oxfam's 2019 Annual Report/: https://assets.oxfamamerica.org/media/documents/2019_Oxfam_America_Annual_Report_web.pdf
+
+If you want to see generally great examples of public sector designs, search for "<big charity or think tank name> annual report", like "red cross annual report" or "urban institute annual report"
+
+---
+
+layout: true
+class: title title-inv-1
+
+---
+
+name: alignment
+
+# Alignment
+
+&nbsp;
+
+.box-1.large[Every item should have a<br>visual connection with<br>something else on the page.]
+
+---
+
+# Alignment
+
+.pull-left[
+<figure>
+  <img src="img/alignment-bad.png" alt="Bad alignment" title="Bad alignment" width="100%">
+  <figcaption>Bad alignment</figcaption>
+</figure>
+]
+
+--
+
+.pull-right[
+<figure>
+  <img src="img/alignment-good.png" alt="Good alignment" title="Good alignment" width="100%">
+  <figcaption>Good alignment—everything is connected to something</figcaption>
+</figure>
+]
+
+???
+
+Source: Robin Williams, *The Non-Designer's Design Book*
+
+---
+
+# Alignment + repetition
+
+
+.box-1[Share lines and repeat alignments where possible.]
+
+.pull-left[
+<figure>
+  <img src="img/alignment-bad-annotated.png" alt="Bad alignment" title="Bad alignment" width="100%">
+  <figcaption>4 vertical alignments; 3 horizontal alignments</figcaption>
+</figure>
+]
+
+.pull-right[
+<figure>
+  <img src="img/alignment-good-annotated.png" alt="Good alignment" title="Good alignment" width="100%">
+  <figcaption>1 shared vertical alignment; 2 horizontal alignments</figcaption>
+</figure>
+]
+
+---
+
+# Alignment + contrast
+
+.box-1[Center + left is super common, but has weak contrast]
+
+.box-inv-1[Mixing left and right alignment provides stronger contrast]
+
+.pull-left.frame[
+
+<p style="font-size: 0.7em; text-align: center; font-weight: bold;">Chapter 1</p>
+
+<p style="font-size: 0.9em; text-align: center; margin-bottom: 1.5em;">Here’s a title</p>
+
+<p style="font-size: 0.65em;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+]
+
+--
+
+.pull-right.frame[
+
+<p style="font-size: 0.7em; text-align: right; font-weight: bold;">Chapter 1</p>
+
+<p style="font-size: 0.9em; text-align: right; margin-bottom: 1.5em">Here’s a title</p>
+
+<p style="font-size: 0.65em; text-align: justify; hyphens: manual;">Lorem ipsum dolor sit amet, con&shy;sec&shy;tetur adi&shy;pis&shy;icing elit, sed do eiusmod tempor in&shy;ci&shy;di&shy;dunt ut labore et dolore magna aliqua.</p>
+
+]
+
+---
+
+layout: true
+class: title title-4
+
+---
+
+name: proximity
+
+# Proximity
+
+&nbsp;
+
+.box-inv-4.large[Group related items together.]
+
+---
+
+# Proximity
+
+.box-inv-4[Use white space, color, location, contrast, repetition,<br>alignment, etc. to make visually distinct groupings]
+
+--
+
+.pull-left[
+<figure>
+  <img src="img/proximity-bad.png" alt="Bad proximity" title="Bad proximity" width="100%">
+  <figcaption>Bad proximity; no logical groupings</figcaption>
+</figure>
+]
+
+--
+
+.pull-right[
+<figure>
+  <img src="img/proximity-good.png" alt="Good proximity" title="Good proximity" width="100%">
+  <figcaption>Good proximity; information visually grouped</figcaption>
+</figure>
+]
+
+???
+
+Source: Robin Williams, *The Non-Designer's Design Book*
+
+---
+
+layout: true
+class: title title-5
+
+---
+
+# CRAP review
+
+.pull-left[
+.pull-left[
+
+.box-1[Contrast]
+
+<figure>
+  <img src="img/review-contrast.png" alt="Contrast" title="Contrast" width="100%">
+</figure>
+]
+
+.pull-right[
+
+.box-inv-4[Repetition]
+
+<figure>
+  <img src="img/review-repetition.png" alt="Repetition" title="Repetition" width="100%">
+</figure>
+]
+]
+
+.pull-right[
+.pull-left[
+
+.box-inv-1[Alignment]
+
+<figure>
+  <img src="img/review-alignment.png" alt="Alignment" title="Alignment" width="100%">
+</figure>
+]
+
+.pull-right[
+
+.box-4[Proximity]
+
+<figure>
+  <img src="img/review-proximity.png" alt="Proximity" title="Proximity" width="100%">
+</figure>
+]
+]
+
+---
+
+layout: false
+name: moral-story
+class: center middle section-title section-title-7 animated fadeIn
+
+# What next?
+
+---
+
+layout: true
+class: title title-7
+
+---
+
+# Skills to develop
+
+.box-inv-7.medium.sp-after[Visualization]
+
+.box-inv-7.medium.sp-after[Design]
+
+.box-inv-7.medium[Storytelling]
+
+---
+
+# Visualization software
+
+.center[
+<figure>
+  <img src="img/complexity-chart@4x.png" alt="Complexity chart" title="Complexity chart" width="65%">
+</figure>
+]
+
+---
+
+# Visualization resources
+
+.small[
+- Andrew Heiss, ["Data Visualization with R"](https://datavizm20.classes.andrewheiss.com/) (free online course)
+- Kieran Healy,[ *Data Visualization for Social Science: A practical introduction with R and ggplot2*](http://socviz.co/)
+- Claus Wilke, [*Fundamentals of Data Visualization*](https://serialmentor.com/dataviz/)
+- Alberto Cairo, *The Truthful Art: Data, Charts, and Maps for Communication* 
+- Stephanie D. H. Evergreen, *Effective Data Visualization: The Right Chart for the Right Data*
+- Dona M. Wong, *The Wall Street Journal Guide to Information Graphics: The Dos and Don’ts of Presenting Data, Facts, and Figures* 
+- Hadley Wickham and Garrett Grolemund, *R for Data Science: Import, Tidy, Transform, Visualize, and Model Data*
+- Alberto Cairo, *The Functional Art: An Introduction to Information Graphics and Visualization*
+]
+
+---
+
+# Design resources
+
+.center[
+<figure>
+  <img src="img/williams-design-book.jpg" alt="Robin Williams's The Non-Designers Design Book" title="Robin Williams's The Non-Designers Design Book" width="30%">
+  <figcaption>Buy this book and your life will change forever.</figcaption>
+</figure>
+]
+
+---
+
+# Design resources
+
+.tiny[
+.pull-left[
+
+## Accessibility
+
+- [**Vischeck**](http://www.vischeck.com/vischeck/vischeckImage.php): Simulate how your images look for people with different forms of colorblindness (web-based)
+- [**Color Oracle**](http://colororacle.org/index.html): Simulate how your images look for people with different forms of colorblindness (desktop-based, more types of colorblindness)
+
+## Fonts
+
+- [**Google Fonts**](https://fonts.google.com/): Huge collection of free, well-made fonts.
+- [**The Ultimate Collection of Google Font Pairings**](https://www.reliablepsd.com/ultimate-google-font-pairings/): A list of great, well-designed font pairings from all those fonts hosted by Google (for when you're looking for good contrasting or complementary fonts).
+]
+
+.pull-right[
+
+## Colors
+
+- [**Adobe Color**](https://color.adobe.com): Create, share, and explore rule-based and custom color palettes.
+- [**ColourLovers**](http://www.colourlovers.com/): Like Facebook for color palettes.
+- [**viridis**](https://cran.r-project.org/web/packages/viridis/vignettes/intro-to-viridis.html): Percetually uniform color scales.
+- [**ColorBrewer**](http://colorbrewer2.org/): Sequential, diverging, and qualitative color palettes that take accessibility into account.
+- [**Colorgorical**](http://vrl.cs.brown.edu/color): Create color palettes based on fancy mathematical rules for perceptual distance.
+- [**Colorpicker for data**](http://tristen.ca/hcl-picker/): More fancy mathematical rules for color palettes ([explanation](https://www.vis4.net/blog/posts/avoid-equidistant-hsv-colors/)).
+- [**iWantHue**](http://tools.medialab.sciences-po.fr/iwanthue/): Yet another perceptual distance-based color palette builder.
+- [**Photochrome**](https://photochrome.io/): Word-based color palettes.
+- [**PolicyViz Design Color Tools**](https://policyviz.com/better-presentations/design-resources/design-color-tools/): Large collection of useful color resources
+
+]
+]
+
+---
+
+# Storytelling
+
+.pull-left.small[
+
+## Videos
+
+- Ben Wellington, ["Making data mean more through storytelling"](https://www.youtube.com/watch?v=6xsvGYIxJok)
+- Jonathan Schwabish, ["Better data communication"](https://vimeo.com/230757062)
+
+]
+
+.pull-right.small[
+
+## Books
+
+- Cole Nussbaumer Knaflic, *Storytelling with Data: A Data Visualization Guide for Business Professionals*
+- Alan Alda, *If I Understood You, Would I Have This Look on My Face? My Adventures in the Art and Science of Relating and Communicating*
+- Nancy Duarte, *Resonate: Present Visual Stories That Transform Audiences*
+]
+
+---
+
+# Moral of the story
+
+.box-inv-7.medium.sp-after[Facts require beauty to be true]
+
+--
+
+.box-inv-7.medium.sp-after[Design + stories = truth]
+
+--
+
+.box-inv-7.medium[You can (and should) develop these skills!]

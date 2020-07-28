@@ -1,2 +1,4 @@
 .Rproj.user
+.Rhistory
 in-their-own-repos/*
+.DS_Store
