@@ -1,0 +1,53 @@
+---
+title: "Open source resources for teaching data public service-focused data science courses"
+author:
+- name: Andrew Heiss, PhD
+  affiliation: Georgia State University
+  email: aheiss@gsu.edu
+date: "October 18, 2019"
+output: 
+  html_document: 
+    theme: journal
+    toc: yes
+---
+
+# DS4PS
+
+The future central hub for sharing pedagogical resources for data science in public affairs courses will (soon) be [**ds4ps.org**](https://ds4ps.org/) (Data Science for Public Service). 
+
+# Why data science in the public sector?
+
+- DJ Patil, ["What Makes a Radical and Revolutionary Technology?](https://www.youtube.com/watch?v=UOoMzaWOQJA). DJ Patil is the former Chief Data Scientist of the United States under President Obama. He gave this forum address at Brigham Young University on February 13, 2018.
+- Stephen Goldsmith, ["Next Generation of Public Employees Must Understand Data and Policy"](http://www.govtech.com/opinion/Next-Generation-Public-Employees-Must-Understand-Data-Policy.html)
+- Chris Sommerfeld, ["The Rise of the Data Scientists"](https://datasmart.ash.harvard.edu/news/article/the-rise-of-the-data-scientists-611)
+- Zack Quaintance, ["Summit on Data-Smart Government Day Two Shows How Fast the Discipline Has Grown"](http://www.govtech.com/civic/Summit-on-Data-Smart-Government-Day-Two-Shows-How-Fast-the-Discipline-Has-Grown.html)
+- Hadley Wickham, ["Data Science: How is it Different To Statistics?"](http://bulletin.imstat.org/2014/09/data-science-how-is-it-different-to-statistics%E2%80%89/)
+
+## Open source textbooks
+
+- Chester Ismay and Albert Y. Kim, *ModernDive: An Introduction to Statistical and Data Sciences via R*, <https://moderndive.com/>: A complete introductory statistics course based on R and focused on practical data work and simulation-based hypothesis testing. [I taught an executive MPA course with this book in 2018](https://statsf18.classes.andrewheiss.com/), and plan on using it in intro MPA/MPP stats classes in the future. 
+- Hadley Wickham and Garrett Grolemund, *R for Data Science: Import, Tidy, Transform, Visualize, and Model Data* (Sebastopol, California: O’Reilly Media, 2017), <http://r4ds.had.co.nz/>: The standard text for learning modern data science with R.
+- David M. Diez, Christopher D. Barr, and Mine Çetinkaya-Rundel, *OpenIntro Statistics* (4th edition, 2019), <https://www.openintro.org/stat/textbook.php?stat_book=os>: A free textbook on general statistics. I've used parts of this in my classes and it's great.
+- Kieran Healy, *Data Visualization: A Practical Introduction* (Princeton: Princeton University Press, 2018), <http://socviz.co/>: [I taught an MPA class on data visualization](https://datavizf18.classes.andrewheiss.com/) with this book (and Claus Wilke's) in 2018, and it was a phenomenal resource.
+- Claus E. Wilke, *Fundamentals of Data Visualization* (Sebastopol, California: O’Reilly Media, 2018), <https://serialmentor.com/dataviz/>.
+- Paul J. Gertler et al., *Impact Evaluation in Practice*, 2nd ed. (Inter-American Development Bank; World Bank, 2016), <https://openknowledge.worldbank.org/handle/10986/25030>: This is a free textbook on program evaluation published by the World Bank, and it is very well written and quite accessible for beginners. It's not R specific, but can be taught in an R-focused class for the different types of econometrics approaches. I use this [in my course on program evaluation](https://evalf19.classes.andrewheiss.com/). 
+- Scott Cunningham, *Causal Inference: The Mixtape*, 2018, <https://www.scunning.com/mixtape.html>: This is a free econometrics textbook with example code in Stata. The 2nd edition of the book, currently under development, will have example code in both R and Stata. This is a much more advanced econometrics book and isn't great for students with little math background (i.e. there are tons of equations!), but it's still full of good examples of econometrics models.
+- Julia Silge and David Robinson, *Text Mining with R: A Tidy Approach*, 2017, <https://www.tidytextmining.com/>: A complete textbook on how to do text analysis with R
+- Robin Lovelace, Jakub Nowosad, Jannes Muenchow, *Geocomputation with R*, 2019, <https://geocompr.robinlovelace.net/>: A complete textbook on how to do GIS analysis with R
+- Ian Foster, Rayid Ghani, Ron S. Jarmin, Frauke Kreuter and Julia Lane, *Big Data in Social Science*, 2019, <https://coleridge-initiative.github.io/big-data-and-social-science/>: A complete textbook on general principles of computational social science
+
+## RStudio resources
+
+- [**RStudio Education**](https://education.rstudio.com/learn/): RStudio has an entire division dedicated to education and training, with a host of cheat sheets, [interactive primers](https://rstudio.cloud/learn/primers), and other resources
+- [**RStudio.cloud**](https://rstudio.cloud/): You can run RStudio in your browser for free. Even better, you can set up a shared class workspace and create projects and assignments that students can complete in their own browsers, also for free. There's no need to have them install R locally on their computer (at least at first; I have studnets use RStudio Cloud for the first few weeks and then transition them to running it locally during the semester)
+
+## Data
+
+- [**Google Dataset Search**](https://toolbox.google.com/datasetsearch): Google indexes thousands of public datasets; search for them here
+- [**Kaggle**](https://www.kaggle.com/datasets): Kaggle hosts machine learning competitions where people compete to create the fastest, most efficient, most predictive algorithms. A byproduct of these competitions is a host of fascinating datasets that are generally free and open to the public. See, for example, [the European Soccer Database](https://www.kaggle.com/hugomathien/soccer), the [Salem Witchcraft Dataset](https://www.kaggle.com/rtatman/salem-witchcraft-dataset) or results from an [Oreo flavors taste test](https://www.kaggle.com/rtatman/oreo-flavors-tastetest-ratings).
+- [**360Giving**](http://www.threesixtygiving.org/data/data-registry/): Dozens of British foundations follow a standard file format for sharing grant data and have made that data available online.
+- [**US City Open Data Census**](http://us-city.census.okfn.org/): More than 100 US cities have committed to sharing dozens of types of data, including data about crime, budgets, campaign finance, lobbying, transit, and zoning. This site from the [Sunlight Foundation](http://sunlightfoundation.com/) and [Code for America](http://www.codeforamerica.org//) collects this data and rates cities by how well they're doing.
+- **Political science and economics datasets**: There's a wealth of data available for political science- and economics-related topics:
+    - [**François Briatte's extensive curated lists**](https://github.com/briatte/srqm/wiki/Data): Includes data from/about intergovernmental organizations (IGOs), nongovernmental organizations (NGOs), public opinion surveys, parliaments and legislatures, wars, human rights, elections, and municipalities.
+    - [**Thomas Leeper's list of political science datasets**](https://github.com/leeper/poliscitoys/issues/1): Good short list of useful datasets, divided by type of data (country-level data, survey data, social media data, event data, text data, etc.).
+    - [**Erik Gahner's list of political science datasets**](https://github.com/erikgahner/PolData): Huge list of useful datasets, divided by topic (governance, elections, policy, political elites, etc.)
