@@ -1,3 +1,6 @@
 [submodule "2019-05-14_reproducibility"]
 	path = 2019-05-14_reproducibility
 	url = https://github.com/andrewheiss/2019-05-14_reproducibility
+[submodule "2020-09-17_umontreal-dataviz"]
+	path = 2020-09-17_umontreal-dataviz
+	url = git@github.com:andrewheiss/2020-09-17_umontreal-dataviz.git
