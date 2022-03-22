@@ -1,5 +1,5 @@
 ---
-title: "Putting everything out there as a PhD student"
+title: "Putting everything out there as a researcher"
 author: "Andrew Heiss"
 date: "`r Sys.Date()`"
 output:
@@ -36,7 +36,7 @@ xaringanExtra::use_xaringan_extra(c("tile_view"))
 
 class: center middle main-title section-title-6
 
-# Putting everything out there as a PhD student
+# Putting everything out there as a researcher
 
 .class-info[
 

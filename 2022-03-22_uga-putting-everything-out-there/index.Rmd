@@ -1,13 +1,13 @@
 ---
-title: "Putting everything out there as a PhD student"
+title: "Putting everything out there as a researcher"
 author:
 - name: Andrew Heiss, PhD
   affiliation: "Andrew Young School of Policy Studies<br>Georgia State University"
   email: aheiss@gsu.edu
 date: >-
   March 22, 2022<br><br>
-  <small>Workshop for the Political Science Graduate Student Association<br>
-  Department of Political Science • Georgia State University</small>
+  <small>EPID 9100 PhD/MS Seminar, Spring 2022<br>
+  Department of Epidemiology & Biostatistics • University of Georgia</small>
 output:
   html_document:
     theme: cosmo

@@ -1,5 +1,5 @@
 
-# Putting everything out there as a PhD student
+# Putting everything out there as a researcher
 
 [Andrew Heiss, PhD](https://www.andrewheiss.com)  
 Andrew Young School of Policy Studies  
