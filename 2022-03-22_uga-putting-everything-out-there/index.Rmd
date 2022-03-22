@@ -20,10 +20,6 @@ output:
 
 <p><a class="btn btn-info btn-lg" target="_blank" href="slides.html"><i class="fas fa-external-link-alt"></i> View all slides in new window</a> <a class="btn btn-info btn-lg" target="_blank" href="slides.pdf" role="button"><i class="far fa-file-pdf"></i> Download PDF of all slides</a></p>
 
-```{r embed-xaringan, echo=FALSE}
-xaringanExtra::embed_xaringan(url = "slides.html", ratio = "16:9")
-```
-
 View the [R Markdown source for the slides at GitHub](https://github.com/andrewheiss/talks/tree/master/2022-03-22_uga-putting-everything-out-there).
 
 ## Tell people you exist
