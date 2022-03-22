@@ -1,0 +1,20 @@
+---
+output: github_document
+---
+
+# Putting everything out there as a PhD student
+
+[Andrew Heiss, PhD](https://www.andrewheiss.com)  
+Andrew Young School of Policy Studies  
+Georgia State University
+ 
+EPID 9100 PhD/MS Seminar, Spring 2022  
+Department of Epidemiology & Biostatistics • University of Georgia
+
+March 22, 2022
+
+---
+
+## Slides and resources
+
+Access [all the slides and additional resources here](https://talks.andrewheiss.com/2022-03-22_uga-putting-everything-out-there/).
