@@ -1,0 +1,265 @@
+---
+title: "Be curious, not judgmental"
+subtitle: "Creating a welcoming learning environment through radical transparency and judgment-free curiosity"
+author: "Andrew Heiss"
+date: "March 21, 2024"
+date-format: long
+format:
+  revealjs: 
+    slide-number: true
+    # chalkboard: 
+    #   buttons: false
+    preview-links: auto
+    theme: [simple, custom.scss]
+    title-slide-attributes:
+      data-background-color: "#ff8e5e"
+---
+
+```{r include=FALSE}
+clrs <- MoMAColors::moma.colors("ustwo")
+clrs_lt <- colorspace::lighten(clrs, 0.9)
+
+knitr::opts_chunk$set(fig.retina = 3, collapse = TRUE)
+options(digits = 3, width = 75)
+```
+
+# Plan for today {background-color="`r clrs[4]`" .white}
+
+## {background-color="`r clrs_lt[4]`"}
+
+::: {.incremental style="font-size: 1.8em;"}
+- **Embracing radical transparency**
+- **Overcoming the fear of being wrong**
+- **Judgment-free curiosity**
+:::
+
+# Embracing radical transparency {background-color="`r clrs[1]`"}
+
+## {background-color="#fff"}
+
+\ 
+
+![](img/robinson-title.png){fig-align="center" width="100%"}
+
+::: footer
+[David Robinson's rstudio::conf 2019 talk](https://www.rstudio.com/resources/rstudioconf-2019/the-unreasonable-effectiveness-of-public-work/){preview-link="true"}
+:::
+
+## How we normally think of our work and goals {background-color="#fff" .category-1}
+
+\ 
+
+![](img/normal-work.png){fig-align="center" width="100%"}
+
+## How we *should* think of our work and goals {background-color="#fff" .category-1}
+
+\ 
+
+![](img/public-work.png){fig-align="center" width="100%"}
+
+## Why work in public? {background-color="`r clrs_lt[1]`"}
+
+::: {.incremental}
+
+- ~~Get famous~~
+- Demystify the process of learning and gaining expertise
+- Good for providing public goods for teaching and research
+- Good for the scientific process and reproducibility
+- Strengthen the R community
+- **Provide resources for future you**
+
+:::
+
+## Easy ways to work in public {background-color="`r clrs_lt[1]`"}
+
+### Play with data
+
+::: {.incremental}
+
+- [Tidy Tuesday](https://github.com/rfordatascience/tidytuesday){preview-link="true"}
+- ["Road trip analysis! How to use and play with Google Location History in R"](https://www.andrewheiss.com/blog/2023/07/03/using-google-location-history-with-r-roadtrip/){preview-link="true"}
+- ["Quickly play with Polity IV and OECD data"](https://www.andrewheiss.com/blog/2017/08/26/quickly-play-with-polity-iv-and-oecd-data-and-see-the-danger-of-us-democracy/){preview-link="true"}
+- ["Tidy text, parts of speech, and unique words in the Qur’an"](https://www.andrewheiss.com/blog/2018/12/28/tidytext-pos-arabic/){preview-link="true"}
+
+:::
+
+## Easy ways to work in public {background-color="`r clrs_lt[1]`"}
+
+### Play with methods
+
+::: {.incremental}
+
+- ["The ultimate practical guide to multilevel multinomial conjoint analysis with R"](https://www.andrewheiss.com/blog/2017/08/26/quickly-play-with-polity-iv-and-oecd-data-and-see-the-danger-of-us-democracy/){preview-link="true"}
+- ["Visualizing the differences between Bayesian posterior predictions, linear predictions, and the expectation of posterior predictions"](https://www.andrewheiss.com/blog/2022/09/26/guide-visualizing-types-posteriors/){preview-link="true"}
+
+:::
+
+## Easy ways to work in public {background-color="`r clrs_lt[1]`"}
+
+### Teach yourself concepts
+
+::: {.incremental}
+
+- ["Demystifying causal inference estimands: ATE, ATT, and ATU"](https://www.andrewheiss.com/blog/2024/03/21/demystifying-ate-att-atu/){preview-link="true"}
+- ["Marginalia: A guide to figuring out what the heck marginal effects, marginal slopes, average marginal effects, marginal effects at the mean, and all these other marginal things are"](https://www.andrewheiss.com/blog/2022/05/20/marginalia/){preview-link="true"}
+- ["Guide to understanding the intuition behind the Dirichlet distribution"](https://www.andrewheiss.com/blog/2023/09/18/understanding-dirichlet-beta-intuition/){preview-link="true"}
+
+:::
+
+## Easy ways to work in public {background-color="`r clrs_lt[1]`"}
+
+### Make your materials open
+
+::: {.incremental}
+
+- [Teaching websites](https://www.andrewheiss.com/teaching){preview-link="true"}
+- [Research notebooks](https://stats.andrewheiss.com){preview-link="true"}
+- Random GitHub repos and gists
+
+:::
+
+## What about confidential / NDA / scoopable work? {background-color="`r clrs_lt[1]`"}
+
+::: {.incremental}
+
+- Use different data
+- Reprexes!
+
+:::
+
+
+## How does this apply to Academy? {background-color="`r clrs_lt[1]`"}
+
+::: {.incremental}
+
+- Resources for questions!
+- Models good behavior
+- Builds community
+
+:::
+
+
+# Overcoming the fear of being wrong {background-color="`r clrs[6]`" .white}
+
+## The biggest hurdle to public work is a fear of being wrong {background-color="`r clrs[6]`" .center .middle .white}
+
+## This is hard to do! {background-color="`r clrs_lt[6]`"}
+
+\ 
+
+![](img/solomon-wrong.png){fig-align="center" width="100%"}
+
+::: footer
+[Original tweet](https://twitter.com/SolomonKurz/status/1572218190159134720){preview-link="true"}
+:::
+
+## Feel comfortable being wrong {background-color="`r clrs[6]`" .center .middle .white}
+
+## Help others feel comfortable being wrong {background-color="`r clrs[6]`" .center .middle .white}
+
+
+# Judgment-free curiosity {background-color="`r clrs[2]`" .white}
+
+## Be curious, not judgmental {background-color="`r clrs_lt[2]`" .center .middle}
+
+![](img/ted-lasso.jpeg){fig-align="center" width="100%"}
+
+::: footer
+Ted Lasso, not Walt Whitman
+:::
+
+## My strategies for encouraging wrongness and judgment-free curiosity {background-color="`r clrs_lt[2]`"}
+
+::: {.incremental}
+
+- Less informative grading
+- Discover exciting and muddy things
+- Work together live
+- "Ask me X questions"
+
+:::
+
+## Less informative grading = <br>better motivation {background-color="`r clrs_lt[2]`"}
+
+:::: {.columns}
+
+::: {.column width="60%"}
+![](img/jebo.png){fig-align="center" width="100%"}
+:::
+
+::: {.column width="40%"}
+- Granular grading systems (A, A−, B+, B, etc.) hurt motivation
+- Use less informative grading (but still give feedback)
+:::
+
+::::
+
+::: footer
+[10.1016/j.jebo.2023.12.001](https://doi.org/10.1016/j.jebo.2023.12.001){preview-link="true"}
+:::
+
+## Less informative grading = <br>better motivation {background-color="`r clrs_lt[2]`"}
+
+![](img/check-system.png){fig-align="center" width="100%"}
+
+## Discover exciting and muddy things {background-color="`r clrs_lt[2]`"}
+
+\ 
+
+![](img/exciting-muddy.png){fig-align="center" width="100%"}
+
+## Discover exciting and muddy things {background-color="`r clrs_lt[2]`"}
+
+\ 
+
+In milestone sessions, ask learners:
+
+::: {.incremental}
+- what made them excited
+- what they got stuck on
+- what they really wanted to do
+:::
+
+## Work together live {background-color="`r clrs_lt[2]`"}
+ 
+\ 
+
+Time-permitting, help a couple learners live code the "what they really wanted to do" part
+
+
+## Work together live {background-color="`r clrs_lt[2]`"}
+ 
+\ 
+
+Time-permitting, help a couple learners live code the "what they really wanted to do" part
+
+::: {style="font-size: 1.3em; padding-top: 1em;"}
+
+Mistakes will be made; questions will be asked; stuff will be learned
+
+:::
+
+## "Ask me X questions" {background-color="`r clrs_lt[2]`" .center .middle}
+
+![](img/geordi-questions.jpeg){fig-align="center" width="100%"}
+
+
+# Summary {background-color="`r clrs[4]`" .white}
+
+## {background-color="`r clrs_lt[4]`" .center .middle}
+
+:::: {.columns}
+
+::: {.column width="33%"}
+Try **radical transparency** to build community
+:::
+
+::: {.column width="33%"}
+Learn and teach how to be **wrong in public**
+:::
+
+::: {.column width="33%"}
+Encourage **judgment-free curiosity**
+:::
+
+::::
